@@ -21,7 +21,7 @@ data = [{
     priceHot: 0,
     priceIce: 3000,
     isUnion: false,
-    subText: '<pre style="margin: 0px; padding-top: 5px">   (take-out only)</pre>'
+    subText: '<pre style="margin: 0px; padding-top: 8px">   (take-out only)</pre>'
 }, {
     name: '카페라떼', priceHot: 3400, priceIce: 3900
 }, {
@@ -71,15 +71,15 @@ m2.connectFrom('app');
 
 m2.addSector('LATTE', 'hotAndIce');
 m2.addSector('TEA');
-m2.addSector('버블티<span style="font-size: 9px"> - 펄선택 (화이트, 블랙)</span>');
+m2.addSector('버블티<span style="font-size: 12px"> - 펄선택 (화이트, 블랙)</span>');
 let s3 = m2.findSector('LATTE');
 let s4 = m2.findSector('TEA');
-let s5 = m2.findSector('버블티<span style="font-size: 9px"> - 펄선택 (화이트, 블랙)</span>');
+let s5 = m2.findSector('버블티<span style="font-size: 12px"> - 펄선택 (화이트, 블랙)</span>');
 
 let data3 = [{
     name: '딸기 라떼', priceHot: 0, priceIce: 4500
 }, {
-    name: '오리지널 라떼', priceHot: 3900, priceIce: 4400, subText: '<div style="padding-top: 13px;">초코 / 민트초코 / 말차 / 오곡 </div>'
+    name: '오리지널 라떼', priceHot: 3900, priceIce: 4400, subText: '<div style="padding-top: 20px;">초코 / 민트초코 / 말차 / 오곡 </div>'
 }, {
     name: '군고구마 라떼', priceHot: 3900
 }, {
@@ -91,9 +91,9 @@ let data3 = [{
 }]
 
 let data4 = [{
-    name: '허브티', priceHot: 3900, subText: '<div style="padding-top: 13px;">얼그레이 / 카모마일 바닐라 / 카모마일 레몬 글라스 / 로즈힙앤체리 / 레몬진저 / 페퍼민트 레몬</div>'
+    name: '허브티', priceHot: 3900, subText: '<div style="padding-top: 20px;">얼그레이 / 카모마일 바닐라 / 카모마일 레몬 글라스 / 로즈힙앤체리 / 레몬진저 / 페퍼민트 레몬</div>'
 }, {
-    name: '리얼 아이스티', priceIce: 4500, subText: '<div style="padding-top: 13px; width: 200px">레몬 / 블루베리 / 복숭아 / 트로피칼</div>'
+    name: '리얼 아이스티', priceIce: 4500, subText: '<div style="padding-top: 20px; width: 330px">레몬 / 블루베리 / 복숭아 / 트로피칼</div>'
 }]
 
 let data5 = [{
@@ -110,16 +110,16 @@ let m3 = new Menu();
 m3.connectFrom('app');
 
 m3.addSector('ADE', 'ice');
-m3.addSector('<div style="font-size: 24px; width: 250px">SHAKE & SMOOTHIE</div>');
+m3.addSector('<div style="font-size: 36px; width: 375px">SHAKE & SMOOTHIE</div>');
 m3.addSector('빙수');
 
 let s6 = m3.findSector('ADE');
-let s7 = m3.findSector('<div style="font-size: 24px; width: 250px">SHAKE & SMOOTHIE</div>');
+let s7 = m3.findSector('<div style="font-size: 36px; width: 375px">SHAKE & SMOOTHIE</div>');
 let s8 = m3.findSector('빙수');
 
 let data6 = [{
     name: '에이드', priceIce: 5000, isUnion: true, 
-    subText: '<div style="padding-top: 13px;">레몬 / 유자레몬 / 자몽 / 자두 / 청귤 / 청포도 / 복숭아 / 파인애플 / 키위 / 패션푸룻 / 라즈베리</div>'
+    subText: '<div style="padding-top: 20px;">레몬 / 유자레몬 / 자몽 / 자두 / 청귤 / 청포도 / 복숭아 / 파인애플 / 키위 / 패션푸룻 / 라즈베리</div>'
 }, {
     name: '모히또 / 뱅쇼', priceIce: 5000, isUnion: true
 }, {
@@ -136,7 +136,7 @@ let data7 = [{
     name: '돼지바 쉐이크', priceIce: 5800, isUnion: true
 }, {
     name: '요거트 스무디', priceIce: 5800, isUnion: true,
-    subText: '<div style="padding-top: 13px;">플레인 / 딸기 / 라즈베리 / 블루베리 / 망고 / 복숭아</div>'
+    subText: '<div style="padding-top: 20px;">플레인 / 딸기 / 라즈베리 / 블루베리 / 망고 / 복숭아</div>'
 }]
 
 let data8 = [{
@@ -152,9 +152,9 @@ putItems(s8, data8);
 let m4 = new Menu();
 m4.connectFrom('app');
 
-m4.addSector('<div style="width: 250px">Virgin Cocktail</div>');
+m4.addSector('<div style="width: 375px">Virgin Cocktail</div>');
 m4.addSector('EXTRA');
-let s9 = m4.findSector('<div style="width: 250px">Virgin Cocktail</div>');
+let s9 = m4.findSector('<div style="width: 375px">Virgin Cocktail</div>');
 let s10 = m4.findSector('EXTRA');
 
 let data9 = [{
@@ -168,7 +168,7 @@ let data9 = [{
 }]
 
 let data10 = [{
-    name: '샷추가', priceIce: 500, isUnion: true, subText: '<div style="padding-top: 13px;">에스프레소 / 바닐라 / 헤이즐넛</div>'
+    name: '샷추가', priceIce: 500, isUnion: true, subText: '<div style="padding-top: 20px;">에스프레소 / 바닐라 / 헤이즐넛</div>'
 }, {
     name: '우유추가', priceIce: 500, isUnion: true
 }, {

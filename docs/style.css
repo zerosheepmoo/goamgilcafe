@@ -17,20 +17,20 @@
 }
 
 .menu-item {
-    padding-bottom: 13px;
-    font-size: 13px;
+    padding-bottom: 20px;
+    font-size: 21px;
 }
 
 .text-item {
   font-family: "LotteMartHappy", sans-serif;
   display: inline-block;
-  width: 160px;
+  width: 260px;
 }
 
 .price-item {
   font-family: "LotteMartHappy", sans-serif;
   display: inline-block;
-  width: 90px;
+  width: 135px;
   text-align: center;
 }
 
@@ -38,23 +38,23 @@
     display: block;
     font-family: "LotteMartHappy", sans-serif;
     color: rgb(51, 51, 51);
-    width: 180px;
+    width: 295px;
 }
 
 .title-item {
   font-family: "BMEULJIRO";
-  font-size: 30px;
-  padding-top: 10px;
-  padding-bottom: 20px;
-  width: 160px;
+  font-size: 45px;
+  padding-top: 23px;
+  padding-bottom: 30px;
+  width: 260px;
   display: inline-block;
 }
 
 .hot-ice-item {
     font-family: "Abel", sans-serif;
-    font-size: 14px;
+    font-size: 21px;
     text-align: center;
-    width: 90px;
+    width: 135px;
     display: inline-block;
 }
 
@@ -63,16 +63,16 @@
 }
 
 .sector-item {
-    padding-left: 1%;
-    padding-bottom: 5px;
+    padding-left: 2%;
+    padding-bottom: 8px;
     display: block;
 }
 
 .menu-container {
     display: table-cell;
-    width: 280px;
-    padding-left: 10px;
-    height: 550px;
+    width: 420px;
+    padding-left: 15px;
+    height: 825px;
     top: 0px;
 }
 
