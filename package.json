@@ -1,0 +1,31 @@
+{
+  "name": "goamgilcafe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ts-loader": "^8.0.0",
+    "typescript": "^3.9.6",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "scripts": {
+    "tsc": "tsc --init",
+    "wat": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zerosheepmoo/goamgilcafe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zerosheepmoo/goamgilcafe/issues"
+  },
+  "homepage": "https://github.com/zerosheepmoo/goamgilcafe#readme"
+}
