@@ -47,7 +47,7 @@ data = [{
 data2 = [{
     name: '유자차 / 레몬차 / 자몽차', priceHot: 4300
 }, {
-    name: '쌍화대추차', priceHot: 5500
+    name: '쌍화대추차', priceHot: 5500, isPrepared: true
 }]
 
 function putItems(sector, data) {
@@ -59,7 +59,10 @@ function putItems(sector, data) {
         arg3 = data[i]['priceIce'];
         arg4 = data[i]['isUnion'];
         arg5 = data[i]['subText'];
-        sector.addChildItems(arg1, arg2, arg3, arg4, arg5);
+        let mi = sector.addChildItems(arg1, arg2, arg3, arg4, arg5);
+        if (data[i]['isPrepared']) {
+            mi.dom.dispatchEvent(new MouseEvent('click'));
+        }
     }
 }
 
@@ -85,7 +88,7 @@ let data3 = [{
 }, {
     name: '흑임자 라떼', priceIce: 4900
 }, {
-    name: '돼지바 라떼', priceIce: 5500
+    name: '돼지바 라떼', priceIce: 5500, isPrepared: true
 }, {
     name: '밀크티', priceHot: 5000
 }]
@@ -97,9 +100,9 @@ let data4 = [{
 }]
 
 let data5 = [{
-    name: '얼그레이 버블티', priceIce: 5500
+    name: '얼그레이 버블티', priceIce: 5500, isPrepared: true
 }, {
-    name: '흑당 버블티', priceIce: 5300
+    name: '흑당 버블티', priceIce: 5300, isPrepared: true
 }]
 
 putItems(s3, data3);
@@ -131,9 +134,9 @@ let data6 = [{
 let data7 = [{
     name: '오레오 쉐이크', priceIce: 5000, isUnion: true
 }, {
-    name: '구름소다', priceIce: 5500, isUnion: true
+    name: '구름소다', priceIce: 5500, isUnion: true, isPrepared: true
 }, {
-    name: '돼지바 쉐이크', priceIce: 5800, isUnion: true
+    name: '돼지바 쉐이크', priceIce: 5800, isUnion: true, isPrepared: true
 }, {
     name: '요거트 스무디', priceIce: 5800, isUnion: true,
     subText: '<div style="padding-top: 20px;">플레인 / 딸기 / 라즈베리 / 블루베리 / 망고 / 복숭아</div>'
@@ -158,13 +161,13 @@ let s9 = m4.findSector('<div style="width: 375px">Virgin Cocktail</div>');
 let s10 = m4.findSector('EXTRA');
 
 let data9 = [{
-    name: '피나콜라다', priceIce: 6000, isUnion: true
+    name: '피나콜라다', priceIce: 6000, isUnion: true, isPrepared: true
 }, {
-    name: '파인애플 썬샤인', priceIce: 6000, isUnion: true
+    name: '파인애플 썬샤인', priceIce: 6000, isUnion: true, isPrepared: true
 }, {
-    name: '골든 메달리스트', priceIce: 6000, isUnion: true
+    name: '골든 메달리스트', priceIce: 6000, isUnion: true, isPrepared: true
 }, {
-    name: '샹그리아', priceIce: 6000, isUnion: true
+    name: '샹그리아', priceIce: 6000, isUnion: true, isPrepared: true
 }]
 
 let data10 = [{
