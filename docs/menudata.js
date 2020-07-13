@@ -21,7 +21,8 @@ data = [{
     priceHot: 0,
     priceIce: 3000,
     isUnion: false,
-    subText: '<pre style="margin: 0px; padding-top: 8px">   (take-out only)</pre>'
+    subText: '<pre style="font-family: LotteMartHappy;margin: 0px; padding-top: 8px">   (take-out only)</pre>',
+    isEvent: true
 }, {
     name: '카페라떼', priceHot: 3400, priceIce: 3900
 }, {
@@ -50,6 +51,9 @@ data2 = [{
     name: '쌍화대추차', priceHot: 5500, isPrepared: true
 }]
 
+let tempPre = [];
+let tempEv = [];
+
 function putItems(sector, data) {
     const len = data.length;
     for (let i = 0; i < len; i++) {
@@ -59,11 +63,31 @@ function putItems(sector, data) {
         arg3 = data[i]['priceIce'];
         arg4 = data[i]['isUnion'];
         arg5 = data[i]['subText'];
-        let mi = sector.addChildItems(arg1, arg2, arg3, arg4, arg5);
+        sector.addChildItems(arg1, arg2, arg3, arg4, arg5);
         if (data[i]['isPrepared']) {
-            mi.dom.dispatchEvent(new MouseEvent('click'));
+            tempPre.push({
+                sector: sector,
+                text: arg1
+            })
+        }
+        if (data[i]['isEvent']) {
+            tempEv.push({
+                sector: sector,
+                text: arg1
+            })
         }
     }
+}
+
+function apply() {
+    for (let i = 0, len = tempPre.length; i < len; i++) {
+        tempPre[i].sector.updatePrepared(tempPre[i].text);
+    }
+    tempPre = [];
+    for (let i = 0, len = tempEv.length; i < len; i++) {
+        tempEv[i].sector.updateEvent(tempEv[i].text);
+    }
+    tempEv = [];
 }
 
 putItems(s, data);
@@ -182,3 +206,8 @@ let data10 = [{
 
 putItems(s9, data9);
 putItems(s10, data10);
+
+
+// 마지막
+
+apply();
