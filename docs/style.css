@@ -88,10 +88,66 @@
 
 /* non-app */
 
+
+.toolbox-button {
+  position: fixed;
+  right: 5px;
+  top: 0px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  width: 25px;
+  height: 25px;
+  font-size: 24px;
+  font-weight: bold;
+  z-index: 1;
+  cursor: pointer;
+}
+
 .toolbox {
   position: fixed;
-  top: 5px;
-  right: 5px;
+  top: 0px;
+  right: 0px;
+  width: 300px;
+  height: 800px;
+  background-color: rgba(56, 56, 56, 0.9);
+}
+
+@keyframes slide {
+  from {
+    margin-right: -300px;
+  }
+  to {
+    margin-right: 0px;
+  }
+}
+
+@keyframes slide-bye {
+  from {
+    margin-right: 0px;
+  }
+  to {
+    margin-right: -300px;
+  }
+}
+
+.closing {
+  display: block;
+  animation-duration: 1s;
+  animation-name: slide-bye;
+}
+
+.closed {
+  display: none !important;
+}
+
+.opened {
+  display: block;
+  animation-duration: 1s;
+  animation-name: slide;
+  right: 0px;
 }
 
 /* Dropdown Button */
@@ -142,4 +198,12 @@
 .menu-type:hover .menu-type-button {
   background-color: #3e8e41;
   cursor: pointer;
+}
+
+/* 테스트 관련 */
+
+.test-flag {
+  padding: 10px;
+  color: white;
+  font-size: 30px;
 }
