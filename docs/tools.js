@@ -9,7 +9,9 @@ document.addEventListener('DOMContentLoaded', function () {
     toolButton.classList.add('opened');
     toolButton.innerHTML = '<img src="settings-icon.png" width="100%" height="100%">';
     document.body.appendChild(toolButton);
-    toolButton.onclick = openOrclose;
+    toolButton.addEventListener('click', function(ev) {
+        openOrclose(ev);
+    }) 
     toolButton.opened = false;
 
     // tool
@@ -54,6 +56,19 @@ document.addEventListener('DOMContentLoaded', function () {
     menuTF = document.createElement('input');
     menuTF.setAttribute('type', 'text');
     tool.appendChild(menuTF);
+
+    // global keyboard events
+    document.addEventListener('keyup', function(ev) {
+        if (ev.keyCode === 13) {
+            openOrclose(ev);
+        }
+        
+    });
+    document.addEventListener('keydown', function(ev) {
+        if ((ev.ctrlKey || ev.metaKey) && ev.shiftKey && ev.keyCode == 76) {
+            changeLanguage(ev);
+        }
+    })
 });
 
 function addMenuItem() {
@@ -67,24 +82,44 @@ function selectMenuType() {
 }
 
 function openOrclose(evt) {
+    if (toolButton.anime) {
+        return;
+    }
     if (!toolButton.opened) {
-        toolButton.onclick = null;
+        toolButton.removeEventListener('click', openOrclose);
+        toolButton.removeEventListener('keyup', openOrclose);
         tool.classList.remove('closed');
         tool.classList.add('opened');
+        toolButton.anime = true;
         setTimeout(function() {
             toolButton.opened = true;
-            toolButton.onclick = openOrclose;
-        }, 900);
+            toolButton.addEventListener('click', openOrclose);
+            toolButton.addEventListener('keyup', openOrclose);
+            toolButton.anime = false;
+        }, 1200);
     }
     else {
-        toolButton.onclick = null;
+        toolButton.removeEventListener('click', openOrclose);
+        toolButton.removeEventListener('keyup', openOrclose);
         tool.classList.remove('opened');
         tool.classList.add('closing');
-        toolButton.opened = false;
+        toolButton.anime = true;
         setTimeout(function() {
+            toolButton.opened = false;
             tool.classList.remove('closing');
             tool.classList.add('closed');
-            toolButton.onclick = openOrclose;
-        }, 900);
+            toolButton.addEventListener('click', openOrclose);
+            toolButton.addEventListener('keyup', openOrclose);
+            toolButton.anime = false;
+        }, 1000);
+    }
+}
+
+function changeLanguage(evt) {
+    if (window.menuLang === 'kr') {
+        window.location = './menu-en.html';
+    }
+    else {
+        window.location = './menu.html';
     }
 }

@@ -1,3 +1,7 @@
+// 임시방편 language
+window.menuLang = 'kr';
+
+// 시작
 m = new Menu();
 m.connectFrom('app');
 
