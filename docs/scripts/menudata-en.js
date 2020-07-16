@@ -139,13 +139,13 @@ let shaIceMenudata = [{
 }]
 
 let virCockMenudata = [{
-    name: 'Piña Colada', priceIce: 6000, isUnion: true, isPrepared: true
+    name: 'Piña Colada', priceIce: 7000, isUnion: true, isPrepared: true
 }, {
-    name: 'Pineapple Sunshine', priceIce: 6000, isUnion: true, isPrepared: true
+    name: 'Pineapple Sunshine', priceIce: 7000, isUnion: true, isPrepared: true
 }, {
-    name: 'Golden Medalist', priceIce: 6000, isUnion: true, isPrepared: true
+    name: 'Golden Medalist', priceIce: 7000, isUnion: true, isPrepared: true
 }, {
-    name: 'Sangria', priceIce: 6000, isUnion: true, isPrepared: true
+    name: 'Sangria', priceIce: 7000, isUnion: true, isPrepared: true
 }]
 
 let extraMenuData = [{
@@ -212,4 +212,6 @@ putItems(shavedIceSector, shaIceMenudata);
 putItems(virCockSector, virCockMenudata);
 putItems(extraSector, extraMenuData);
 
-apply();
+setTimeout(function() {
+    apply()
+}, 10);

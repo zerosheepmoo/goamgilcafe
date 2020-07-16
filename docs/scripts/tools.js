@@ -2,12 +2,15 @@ let toolButton;
 let tool;
 let menuTypeSelect, menuTypeSelectButton, menuTypeSelectContent;
 let titleTF, menuTF, priceTF, typeTF;
+
 document.addEventListener('DOMContentLoaded', function () {
+
+    document.body.classList.add('no-drag');
     // tool button
     toolButton = document.createElement('div');
     toolButton.className = 'toolbox-button';
     toolButton.classList.add('opened');
-    toolButton.innerHTML = '<img src="settings-icon.png" width="100%" height="100%">';
+    toolButton.innerHTML = '<img src="./images/settings-icon.png" width="100%" height="100%">';
     document.body.appendChild(toolButton);
     toolButton.addEventListener('click', function(ev) {
         openOrclose(ev);
@@ -20,17 +23,25 @@ document.addEventListener('DOMContentLoaded', function () {
     tool.classList.add('closed');
     document.body.appendChild(tool);
 
-    //testflags
-    let testFlag = document.createElement('pre');
-    testFlag.className = 'test-flag';
-    testFlag.textContent = `메뉴를 쉽게 관리하기
-위한 설정탭`;
-    tool.appendChild(testFlag);
-    
-    let testFlag2 = document.createElement('div');
-    testFlag2.className = 'test-flag';
-    testFlag2.textContent = '개발 중 입니다...';
-    tool.appendChild(testFlag2);
+    // onDevText
+    let onDevText = document.createElement('div');
+    onDevText.className = 'text-tab';
+    onDevText.textContent = '개발 중 입니다...';
+    tool.appendChild(onDevText);
+
+    // theme change
+    let themeChangeButton = document.createElement('div');
+    themeChangeButton.className = 'theme-change-button';
+    themeChangeButton.addEventListener('click', loadCSS);
+    themeChangeButton.innerHTML = '테마 바꾸기<div style="font-size: 10px;">ctrl + shift + k</div>';
+    tool.appendChild(themeChangeButton);
+
+    // lang change
+    let langChangeButton = document.createElement('div');
+    langChangeButton.className = 'lang-change-button';
+    langChangeButton.addEventListener('click', changeLanguage);
+    langChangeButton.innerHTML = '언어바꾸기<div style="font-size: 10px;">ctrl + shift + l</div>';
+    tool.appendChild(langChangeButton);
 
     // menutypebox
     menuTypeSelect = document.createElement('div');
@@ -57,6 +68,13 @@ document.addEventListener('DOMContentLoaded', function () {
     menuTF.setAttribute('type', 'text');
     tool.appendChild(menuTF);
 
+
+    // description
+    let description = document.createElement('div');
+    description.className = 'text-tab';
+    description.textContent = `설정탭 열기: Enter`;
+    tool.appendChild(description);
+
     // global keyboard events
     document.addEventListener('keyup', function(ev) {
         if (ev.keyCode === 13) {
@@ -65,8 +83,13 @@ document.addEventListener('DOMContentLoaded', function () {
         
     });
     document.addEventListener('keydown', function(ev) {
-        if ((ev.ctrlKey || ev.metaKey) && ev.shiftKey && ev.keyCode == 76) {
-            changeLanguage(ev);
+        if ((ev.ctrlKey || ev.metaKey) && ev.shiftKey) {
+            if (ev.keyCode === 76) {
+                changeLanguage(ev);
+            }
+            if (ev.keyCode === 75) {
+                loadCSS();
+            }
         }
     })
 });
