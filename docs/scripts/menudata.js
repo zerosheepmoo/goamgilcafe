@@ -105,9 +105,9 @@ let data4 = [{
 }]
 
 let data5 = [{
-    name: '얼그레이 버블티', priceIce: 5500, isPrepared: true
+    name: '얼그레이 버블티', priceIce: 5500
 }, {
-    name: '흑당 버블티', priceIce: 5300, isPrepared: true
+    name: '흑당 버블티', priceIce: 5300
 }]
 
 let data6 = [{
@@ -141,11 +141,11 @@ let data8 = [{
 let data9 = [{
     name: '피나콜라다', priceIce: 7000, isUnion: true, isPrepared: true
 }, {
-    name: '파인애플 썬샤인', priceIce: 7000, isUnion: true, isPrepared: true
+    name: '파인애플 썬샤인', priceIce: 7000, isUnion: true
 }, {
     name: '골든 메달리스트', priceIce: 7000, isUnion: true, isPrepared: true
 }, {
-    name: '샹그리아', priceIce: 7000, isUnion: true, isPrepared: true
+    name: '샹그리아', priceIce: 7000, isUnion: true
 }]
 
 let data10 = [{

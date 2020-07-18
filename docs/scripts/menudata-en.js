@@ -104,9 +104,9 @@ let TeaMenuData = [{
 }]
 
 let bubTeaMenuData = [{
-    name: 'Earl Gray Bubble Tea', priceIce: 5500, isPrepared: true
+    name: 'Earl Gray Bubble Tea', priceIce: 5500
 }, {
-    name: 'Brown Sugar Bubble Tea', priceIce: 5300, isPrepared: true
+    name: 'Brown Sugar Bubble Tea', priceIce: 5300
 }]
 
 
@@ -141,11 +141,11 @@ let shaIceMenudata = [{
 let virCockMenudata = [{
     name: 'Piña Colada', priceIce: 7000, isUnion: true, isPrepared: true
 }, {
-    name: 'Pineapple Sunshine', priceIce: 7000, isUnion: true, isPrepared: true
+    name: 'Pineapple Sunshine', priceIce: 7000, isUnion: true
 }, {
     name: 'Golden Medalist', priceIce: 7000, isUnion: true, isPrepared: true
 }, {
-    name: 'Sangria', priceIce: 7000, isUnion: true, isPrepared: true
+    name: 'Sangria', priceIce: 7000, isUnion: true
 }]
 
 let extraMenuData = [{
