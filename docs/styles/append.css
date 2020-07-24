@@ -1,0 +1,8 @@
+.custom-removed {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.custom-subtext {
+    padding-top: 20px;
+}

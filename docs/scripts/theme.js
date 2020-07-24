@@ -15,7 +15,7 @@ function loadCSS() {
     fileref.rel= "stylesheet";
     fileref.type = "text/css";
     if (filename === undefined) {
-        filename = 'main-theme.css';
+        filename = 'green-theme.css';
     }
     else if (filename === 'main-theme.css') {
         filename = 'dark-theme.css';

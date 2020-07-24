@@ -139,10 +139,10 @@ function openOrclose(evt) {
 }
 
 function changeLanguage(evt) {
-    if (window.menuLang === 'kr') {
-        window.location = './menu-en.html';
+    if(m.currentLanguage === 'KR') {
+        m.currentLanguage = 'EN'
     }
     else {
-        window.location = './menu.html';
+        m.currentLanguage = 'KR'
     }
 }

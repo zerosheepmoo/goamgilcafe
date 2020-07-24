@@ -26,3 +26,12 @@
 - 툴팁 전환 고민
 - 다국어 지원 개발 중 - 웹페이지 전환 임시방편
 - READ-ONLY 모드 개발 중
+
+## v0.7
+- 내부구조 및 api 수정
+- 툴 개발 중
+    - only keyboard interface
+- 오른쪽 버튼 누를 시 정보창
+- 다국어 지원 개발
+- READ-ONLY 모드 개발 중
+- 기타 (favicion 등) 추가
