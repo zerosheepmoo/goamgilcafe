@@ -513,8 +513,7 @@ let data = [
                     },
                     prices: {
                         ice: 7000
-                    },
-                    isPrepared: true
+                    }
                 }, {
                     name: {
                         KR: '파인애플 썬샤인',
