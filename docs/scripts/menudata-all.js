@@ -113,7 +113,7 @@ let data = [
                 ]
             }, {
                 name: {
-                    KR: '아인슈패너',
+                    KR: '아인슈패너',
                     EN: 'Einspänner'
                 },
                 prices: [
