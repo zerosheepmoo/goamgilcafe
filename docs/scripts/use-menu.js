@@ -101,4 +101,4 @@ function parseSubText(subText){
 
 setTimeout(function() {
     apply()
-}, 50);
+}, 500);
