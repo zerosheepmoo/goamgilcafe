@@ -483,8 +483,8 @@ let data = [
             },
             items: [{
                 name: {
-                    KR: '클래식 / 인절미 빙수',
-                    EN: 'Classic / Injeolmi'
+                    KR: '클래식 / 찹쌀떡 빙수',
+                    EN: '<div style="width: 370px">Classic / Glutnious Rice Cake</div>'
                 },
                 prices: {
                     ice: 8900
