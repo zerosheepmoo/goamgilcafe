@@ -113,7 +113,7 @@ let data = [
                 ]
             }, {
                 name: {
-                    KR: '아인슈패너',
+                    KR: '아인슈패너',
                     EN: 'Einspänner'
                 },
                 prices: [
@@ -513,8 +513,7 @@ let data = [
                     },
                     prices: {
                         ice: 7000
-                    },
-                    isPrepared: true
+                    }
                 }, {
                     name: {
                         KR: '파인애플 썬샤인',
