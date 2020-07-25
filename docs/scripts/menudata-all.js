@@ -7,6 +7,13 @@ let data = [
                 KR: 'COFFEE',
                 EN: 'COFFEE'
             },
+            options: {
+                title: {
+                    subTitle: {
+                        hotIceType: 'hotAndIce'
+                    }
+                }
+            },
             items: [{
                 name: {
                     KR: '에스프레소',
@@ -165,6 +172,13 @@ let data = [
             template: {
                 KR: 'LATTE',
                 EN: 'LATTE'
+            },
+            options: {
+                title: {
+                    subTitle: {
+                        hotIceType: 'hotAndIce'
+                    }
+                }
             },
             items: [{
                 name: {
@@ -341,6 +355,13 @@ let data = [
             template: {
                 KR: 'ADE',
                 EN: 'ADE'
+            },
+            options: {
+                title: {
+                    subTitle: {
+                        hotIceType: 'ice'
+                    }
+                }
             },
             items: [{
                 name: {

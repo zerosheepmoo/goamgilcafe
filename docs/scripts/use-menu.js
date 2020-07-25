@@ -63,7 +63,7 @@ function addSectorWithData(menuColumn, data) {
     const len = data.length;
     for (let i = 0; i < len; i++) {
         let s = window['s' + (i+1)];
-        s = menuColumn.addSector(data[i].name, data[i].template);
+        s = menuColumn.addSector(data[i].name, data[i].template, data[i].options);
         putItems(s, data[i].items);
     }
 }

@@ -35,3 +35,11 @@
 - 다국어 지원 개발
 - READ-ONLY 모드 개발 중
 - 기타 (favicion 등) 추가
+
+## v0.75
+- options 수정
+
+## v0.8 (개발중)
+- Only Keybord Interface (정보창)
+- READ-ONLY 모드 + 모바일
+- 정보창 (오른쪽 클릭)
