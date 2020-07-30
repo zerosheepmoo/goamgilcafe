@@ -439,11 +439,27 @@ let data = [
             },
             items: [{
                 name: {
+                    KR: '밀크 쉐이크',
+                    EN: 'Milk Shake'
+                },
+                prices: {
+                    ice: 4500
+                }
+            }, {
+                name: {
                     KR: '오레오 쉐이크',
                     EN: 'Oreo Shake'
                 },
                 prices: {
                     ice: 5000
+                }
+            }, {
+                name: {
+                    KR: '커피 쉐이크',
+                    EN: 'Coffee Shake'
+                },
+                prices: {
+                    ice: 5500
                 }
             }, {
                 name: {
@@ -496,7 +512,9 @@ let data = [
                     }
                 }
             }]
-        }, {
+        }
+    ], [
+        {
             name: 'shavedIce',
             template: {
                 KR: '빙수',
@@ -519,9 +537,7 @@ let data = [
                     ice: 10900
                 }
             }]
-        },
-    ], [
-        {
+        }, {
             name: 'virginCocktail',
             template: {
                 KR: '<div style="width: 375px">Virgin Cocktail</div>',
