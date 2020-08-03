@@ -249,9 +249,10 @@ let data = [
                     KR: '밀크티',
                     EN: 'Milk Tea'
                 },
-                prices: {
-                    hot: 5000 
-                }
+                prices: [
+                    { name: 'hot', price: 5000},
+                    { name: 'ice', price: 5500}
+                ]
             }]
         }, {
             name: 'tea',
