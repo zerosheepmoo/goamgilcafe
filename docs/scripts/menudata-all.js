@@ -12,6 +12,11 @@ let data = [
                     subTitle: {
                         hotIceType: 'hotAndIce'
                     }
+                },
+                menuItem: {
+                    price: {
+                        
+                    }
                 }
             },
             items: [{
@@ -233,6 +238,7 @@ let data = [
                     EN: 'Black Sesame Latte'
                 },
                 prices: {
+                    hot: 4400,
                     ice: 4900 
                 }
             }, {

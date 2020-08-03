@@ -1,0 +1,131 @@
+body {
+    color: #d5e0d5;
+    background-color: #002400;
+  }
+  
+  @font-face {
+    font-family: "LotteMartHappy";
+    font-style: normal;
+    font-weight: 400;
+    src: url("//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyMedium.woff2")
+        format("woff2"),
+      url("//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyMedium.woff")
+        format("woff");
+  }
+  
+  @font-face {
+    font-family: "BMEULJIRO";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/BMEULJIRO.woff")
+      format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+  
+  .menu-item {
+    padding-bottom: 1.250em;
+    font-size: 1.313em;
+    cursor: pointer;
+  }
+  
+  .menu-item:hover {
+    background-color: rgba(0, 0, 0, 30%);
+  }
+  
+  .text-item {
+    font-family: "LotteMartHappy", sans-serif;
+    display: inline-block;
+    width: 16.250em;
+  }
+  
+  .price-item {
+    font-family: "LotteMartHappy", sans-serif;
+    display: inline-block;
+    width: 8.438em;
+    text-align: center;
+  }
+  
+  .subtext-item {
+    display: block;
+    font-family: "LotteMartHappy", sans-serif;
+    width: 18.438em;
+  }
+  
+  .title-item {
+    font-family: "BMEULJIRO";
+    font-size: 2.813em;
+    padding-top: 1.438em;
+    padding-bottom: 1.875em;
+    width: 16.250em;
+    display: inline-block;
+  }
+  
+  .sub-title-text {
+    font-family: "Abel", sans-serif;
+    font-size: 1.313em;
+    text-align: center;
+    width: 8.438em;
+    display: inline-block;
+  }
+  
+  .title-container {
+    display: block;
+  }
+  
+  .sector-item {
+    padding-left: 2%;
+    padding-bottom: 0.500em;
+    display: block;
+  }
+  
+  .menu-container {
+    display: table-cell;
+    width: 26.250em;
+    padding-left: 2.813em;
+    height: 51.563em;
+    top: 0px;
+    color: whitesmoke;
+  }
+  
+  /* 변경 가능 속성 */
+  
+  .is-prepared {
+    text-decoration: line-through;
+    color: rgb(156, 156, 156);
+  }
+  .is-event {
+    color: #00b7c4;
+  }
+  
+  .is-hot {
+    color: rgb(255, 80, 80);
+  }
+  
+  .is-prepared-flag {
+    color: white;
+    background-color: #dfd000;
+    font-family: LotteMartHappy;
+    font-size: 15px;
+    padding: 3px;
+    border-radius: 8px;
+  }
+  
+  .is-event-flag {
+    color: white;
+    background-color: #00b7c4;
+    font-family: LotteMartHappy;
+    font-size: 15px;
+    padding: 3px;
+    border-radius: 8px;
+  }
+  
+  .is-hot-flag {
+    color: white;
+    background-color: #ec6603;
+    font-family: LotteMartHappy;
+    font-size: 15px;
+    padding: 3px;
+    border-radius: 8px;
+  }
+  
