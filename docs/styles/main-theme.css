@@ -127,3 +127,8 @@ body {
   padding: 3px;
   border-radius: 8px;
 }
+
+.status-exception-item {
+  color: #d5e0d5;
+  text-decoration: none;
+}

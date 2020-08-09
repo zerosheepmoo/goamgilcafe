@@ -2,20 +2,24 @@
 
 let tempPre = [];
 let tempEv = [];
+let tempHot = [];
 
 function putItems(sector, data) {
     const len = data.length;
     for (let i = 0; i < len; i++) {
-        let _name, _subText, _prices, _pricesOrder, _isEvent, _isPrepared;
+        let _name, _subText, _prices, _pricesOrder, _isEvent, _isPrepared, _subItems;
         _name = data[i]['name'];
         _subText = data[i]['subText'];
         _prices = data[i]['prices'];
         _pricesOrder = data[i]['pricesOrder'];
         _isEvent = data[i]['isEvent'];
         _isPrepared = data[i]['isPrepared'];
+        _isHot = data[i]['isHot'];
+        _subItems = data[i]['subItems'];
+
         parseSubText(_subText);
 
-        sector.addChildItems(_name, _subText, _prices, _pricesOrder);
+        sector.addChildItems(_name, _subText, _prices, _pricesOrder, _subItems);
         if (_isPrepared) {
             tempPre.push({
                 sector: sector,
@@ -24,6 +28,12 @@ function putItems(sector, data) {
         }
         if (_isEvent) {
             tempEv.push({
+                sector: sector,
+                text: _name.KR
+            })
+        }
+        if (_isHot) {
+            tempHot.push({
                 sector: sector,
                 text: _name.KR
             })
@@ -40,6 +50,10 @@ function apply() {
         tempEv[i].sector.updateEvent(tempEv[i].text);
     }
     tempEv = [];
+    for (let i = 0, len = tempHot.length; i < len; i++) {
+        tempHot[i].sector.updateHot(tempHot[i].text);
+    }
+    tempHot = [];
 }
 
 // 커피,
@@ -47,7 +61,6 @@ let m;
 document.addEventListener('DOMContentLoaded', function() {
     
     m = new Menu('app');
-    
     // coffee and traditional tea
     addContent(m, data);
 });

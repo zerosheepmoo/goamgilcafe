@@ -27,6 +27,7 @@ body {
   padding-bottom: 20px;
   font-size: 21px;
   cursor: pointer;
+  font-family: "LotteMartHappy", sans-serif;
 }
 
 .menu-item:hover {
@@ -34,13 +35,11 @@ body {
 }
 
 .text-item {
-  font-family: "LotteMartHappy", sans-serif;
   display: inline-block;
   width: 260px;
 }
 
 .price-item {
-  font-family: "LotteMartHappy", sans-serif;
   display: inline-block;
   width: 135px;
   text-align: center;
@@ -48,7 +47,6 @@ body {
 
 .subtext-item {
   display: block;
-  font-family: "LotteMartHappy", sans-serif;
   width: 295px;
 }
 
@@ -95,11 +93,12 @@ body {
   color: rgb(156, 156, 156);
 }
 .is-event {
-  color: #00b7c4;
+  color: #a04e4e;
 }
 
 .is-hot {
-  color: rgb(255, 80, 80);
+  color: #00b7c4; 
+  /* color: rgb(255, 80, 80); */
 }
 
 .is-prepared-flag {
@@ -113,7 +112,7 @@ body {
 
 .is-event-flag {
   color: white;
-  background-color: #00b7c4;
+  background-color: #a04e4e;;
   font-family: LotteMartHappy;
   font-size: 15px;
   padding: 3px;
@@ -122,9 +121,15 @@ body {
 
 .is-hot-flag {
   color: white;
-  background-color: #ec6603;
+  background-color: #00b7c4;
+  /* background-color: #ec6603; */
   font-family: LotteMartHappy;
   font-size: 15px;
   padding: 3px;
   border-radius: 8px;
+}
+
+.status-exception-item {
+  color: #d5e0d5;
+  text-decoration: none;
 }

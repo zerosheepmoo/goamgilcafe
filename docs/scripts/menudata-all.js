@@ -16,6 +16,10 @@ let data = [
                 menuItem: {
                     price: {
                         
+                    },
+                    isHotText: {
+                        KR: '인기',
+                        EN: 'POP'
                     }
                 }
             },
@@ -49,8 +53,7 @@ let data = [
                 subText: {
                     KR: '<pre style="font-family: LotteMartHappy;margin: 0px; padding-top: 8px">   (take-out only)</pre>',
                     EN: '<pre style="font-family: LotteMartHappy;margin: 0px; padding-top: 8px">   (take-out only)</pre>'
-                },
-                isEvent: true
+                }
             }, {
                 name: {
                     KR: '카페라떼',
@@ -77,7 +80,8 @@ let data = [
                 prices: [
                     { name: 'hot', price: 0 },
                     { name: 'ice', price: 4900 }
-                ]
+                ],
+                isHot: true
             }, {
                 name: {
                     KR: '바닐라 / 헤이즐넛 라떼',
@@ -141,6 +145,16 @@ let data = [
                     { name: 'hot', price: 0 },
                     { name: 'ice', price: 5500 }
                 ]
+            }, {
+                name: {
+                    KR: '핸드드립 커피',
+                    EN: 'Brewed Coffee'
+                },
+                prices: [
+                    { name: 'hot', price: 5000, eventPrice: 4500},
+                    { name: 'ice', price: 5000, eventPrice: 4500}
+                ],
+                isEvent: true
             }]
         },
         {
@@ -148,6 +162,14 @@ let data = [
             template: {
                 KR: '전통차',
                 EN: '<div style="width: 350px;">Traditional Tea</div>'
+            },
+            options: {
+                menuItem: {
+                    isHotText: {
+                        KR: '인기',
+                        EN: 'POP'
+                    }
+                }
             },
             items: [{
                     name: {
@@ -183,6 +205,15 @@ let data = [
                     subTitle: {
                         hotIceType: 'hotAndIce'
                     }
+                },
+                menuItem: {
+                    price: {
+                        
+                    },
+                    isHotText: {
+                        KR: '인기',
+                        EN: 'POP'
+                    }
                 }
             },
             items: [{
@@ -203,6 +234,23 @@ let data = [
                     { name: 'hot', price: 3900},
                     { name: 'ice', price: 4400}
                 ],
+                // subItems: [{ 
+                //     name: {
+                //         KR: '초코', EN: 'Chocolate'
+                //     }, 
+                //     except: {
+                //         prepared: true,
+                //         event: true,
+                //         hot: true
+                //     }
+                // }, {
+                //     name: {
+                //         KR: '민트초코', EN: 'Mint-Choco'
+                //     }, 
+                //     except: {
+                //         prepared: true,
+                //     }
+                // }],
                 subText: {
                     KR: {
                         items: [
@@ -230,7 +278,8 @@ let data = [
                     EN: '<div style="width: 400px">Roasted Sweet Potato Latte</div>'
                 },
                 prices: {
-                    hot: 3900
+                    hot: 3900,
+                    ice: 4400
                 }
             }, {
                 name: {
@@ -240,7 +289,18 @@ let data = [
                 prices: {
                     hot: 4400,
                     ice: 4900 
-                }
+                },
+                isHot: true
+            }, {
+                name: {
+                    KR: '바밤바 라떼',
+                    EN: 'Babamba Latte'
+                },
+                prices: {
+                    hot: 3900,
+                    ice: 4400 
+                },
+                isHot: true
             }, {
                 name: {
                     KR: '돼지바 라떼',
@@ -265,6 +325,14 @@ let data = [
             template: {
                 KR: 'TEA',
                 EN: 'TEA'
+            },
+            options: {
+                menuItem: {
+                    isHotText: {
+                        KR: '인기',
+                        EN: 'POP'
+                    }
+                }
             },
             items: [{
                 name: {
@@ -337,6 +405,14 @@ let data = [
                 KR: '버블티<span style="font-size: 12px"> - 펄선택 (화이트, 블랙)</span>',
                 EN: '<div style="width: 450px">Bubble Tea<span style="font-size: 12px"> - Select Pearls (White, Black)</span></div>'
             },
+            options: {
+                menuItem: {
+                    isHotText: {
+                        KR: '인기',
+                        EN: 'POP'
+                    }
+                }
+            },
             items: [{
                 name: {
                     KR: '얼그레이 버블티',
@@ -367,6 +443,12 @@ let data = [
                 title: {
                     subTitle: {
                         hotIceType: 'ice'
+                    }
+                },
+                menuItem: {
+                    isHotText: {
+                        KR: '인기',
+                        EN: 'POP'
                     }
                 }
             },
@@ -420,7 +502,8 @@ let data = [
                 },
                 prices: {
                     ice: 5500
-                }
+                },
+                isHot: true
             },{
                 name: {
                     KR: '에너지뱅',
@@ -443,6 +526,14 @@ let data = [
             template: {
                 KR: '<div style="font-size: 36px; width: 375px">SHAKE & SMOOTHIE</div>',
                 EN: '<div style="font-size: 36px; width: 375px">SHAKE & SMOOTHIE</div>'
+            },
+            options: {
+                menuItem: {
+                    isHotText: {
+                        KR: '인기',
+                        EN: 'POP'
+                    }
+                }
             },
             items: [{
                 name: {
@@ -472,6 +563,15 @@ let data = [
                 name: {
                     KR: '로투스 쉐이크',
                     EN: 'Lotus Biscoff Shake'
+                },
+                prices: {
+                    ice: 5500
+                },
+                isHot: true
+            }, {
+                name: {
+                    KR: '바밤바 쉐이크',
+                    EN: 'Babamba Shake'
                 },
                 prices: {
                     ice: 5500
@@ -526,6 +626,14 @@ let data = [
             template: {
                 KR: '빙수',
                 EN: 'ShavedIce'
+            },
+            options: {
+                menuItem: {
+                    isHotText: {
+                        KR: '인기',
+                        EN: 'POP'
+                    }
+                }
             },
             items: [{
                 name: {
@@ -591,6 +699,14 @@ let data = [
                 KR: 'EXTRA',
                 EN: 'EXTRA'
             },
+            options: {
+                menuItem: {
+                    isHotText: {
+                        KR: '인기',
+                        EN: 'POP'
+                    }
+                }
+            },
             items : [
                 {
                     name: {
@@ -601,9 +717,23 @@ let data = [
                         add: 500
                     },
                     subText: {
-                        KR: '<div style="padding-top: 20px;">에스프레소 / 바닐라 / 헤이즐넛</div>',
-                        EN: '<div style="padding-top: 20px;">Espresso / Vanilla / Hazelnut</div>'
-                    }
+                        KR: {
+                            items: [
+                                {에스프레소: true},
+                                {바닐라: true},
+                                {헤이즐넛: true},
+                            ],
+                            slicer: ' / '
+                        },
+                        EN: {
+                            items: [
+                                {Espresso: true},
+                                {Vanilla: true},
+                                {Hazelnut: true},
+                            ],
+                            slicer: ' / '
+                        }
+                    },
                 }, {
                     name: {
                         KR: '우유추가',
@@ -624,7 +754,7 @@ let data = [
                         KR: {
                             items: [
                                 {화이트: true},
-                                {블랙: false}
+                                {블랙: true}
                             ],
                             slicer: ' / '
                         },
