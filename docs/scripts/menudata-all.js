@@ -497,8 +497,16 @@ let data = [
                 }
             }, {
                 name: {
-                    KR: '모히또 / 뱅쇼',
-                    EN: 'Mojito / Vin Chaud'
+                    KR: '모히또',
+                    EN: 'Mojito'
+                },
+                prices: {
+                    ice: 5500
+                },
+            }, {
+                name: {
+                    KR: '뱅쇼',
+                    EN: 'Vin Chaud'
                 },
                 prices: {
                     ice: 5500
