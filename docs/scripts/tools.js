@@ -42,6 +42,13 @@ document.addEventListener('DOMContentLoaded', function () {
     langChangeButton.addEventListener('click', changeLanguage);
     langChangeButton.innerHTML = '언어바꾸기<div style="font-size: 10px;">ctrl + shift + l</div>';
     tool.appendChild(langChangeButton);
+    
+    // lang change
+    let editModeButton = document.createElement('div');
+    editModeButton.className = 'edit-mode-button';
+    editModeButton.addEventListener('click', toEditMode);
+    editModeButton.innerHTML = '편집모드전환<div style="font-size: 10px;">ctrl + shift + e</div>';
+    tool.appendChild(editModeButton);
 
     // menutypebox
     menuTypeSelect = document.createElement('div');
@@ -89,6 +96,9 @@ document.addEventListener('DOMContentLoaded', function () {
             }
             if (ev.keyCode === 75) {
                 loadCSS();
+            }
+            if (ev.keyCode === 69) {
+                toEditMode(ev);
             }
         }
     })
@@ -145,4 +155,8 @@ function changeLanguage(evt) {
     else {
         m.currentLanguage = 'KR'
     }
+}
+
+function toEditMode(evt) {
+    m.editMode = !m.editMode;
 }

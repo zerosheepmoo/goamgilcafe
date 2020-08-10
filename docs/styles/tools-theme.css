@@ -153,4 +153,20 @@
     cursor: pointer;
 }
 
+.edit-mode-button {
+    padding: 10px;
+    color: rgba(235,235,235, 50%);
+    font-size: 30px;
+    background-color: rgba(43, 0, 0, 0.5);
+    text-align: center;
+    cursor: pointer;
+}
+
+.edit-mode-button:hover {
+    padding: 10px;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 50%);
+    cursor: pointer;
+}
+
 .no-drag {-ms-user-select: none; -moz-user-select: -moz-none; -webkit-user-select: none; -khtml-user-select: none; user-select:none;}

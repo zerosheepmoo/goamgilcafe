@@ -19,7 +19,7 @@ function putItems(sector, data) {
 
         parseSubText(_subText);
 
-        sector.addChildItems(_name, _subText, _prices, _pricesOrder, _subItems);
+        sector.addChildItem(_name, _subText, _prices, _pricesOrder, _subItems);
         if (_isPrepared) {
             tempPre.push({
                 sector: sector,

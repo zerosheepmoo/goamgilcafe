@@ -41,5 +41,6 @@
 
 ## v0.8 (개발중)
 - Only Keybord Interface (정보창)
-- READ-ONLY 모드 + 모바일
+- ~~READ-ONLY 모드 + 모바일~~ `불필요`
 - 정보창 (오른쪽 클릭)
+- view mode / edit mode
