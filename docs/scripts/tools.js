@@ -43,37 +43,26 @@ document.addEventListener('DOMContentLoaded', function () {
     langChangeButton.innerHTML = '언어바꾸기<div style="font-size: 10px;">ctrl + shift + l</div>';
     tool.appendChild(langChangeButton);
     
-    // lang change
+    // editmode
     let editModeButton = document.createElement('div');
     editModeButton.className = 'edit-mode-button';
     editModeButton.addEventListener('click', toEditMode);
     editModeButton.innerHTML = '편집모드전환<div style="font-size: 10px;">ctrl + shift + e</div>';
     tool.appendChild(editModeButton);
 
-    // menutypebox
-    menuTypeSelect = document.createElement('div');
-    menuTypeSelect.className = 'menu-type';
+    // addColumn
+    let addColumnBut = document.createElement('div');
+    addColumnBut.className = 'theme-change-button';
+    addColumnBut.addEventListener('click', addColumn);
+    addColumnBut.innerHTML = '컬럼추가';
+    tool.appendChild(addColumnBut);
 
-    menuTypeSelectButton = document.createElement('button');
-    menuTypeSelectButton.className = 'menu-type-button';
-    menuTypeSelectButton.textContent = '추가 종류';
-
-    menuTypeSelectContent = document.createElement('div');
-    menuTypeSelectContent.className = 'menu-type-content';
-
-    let mtsc1 = document.createElement('div');
-    mtsc1.id = 'mtsc-1';
-    mtsc1.onclick = selectMenuType;
-
-    menuTypeSelectContent.appendChild(mtsc1);
-    menuTypeSelect.appendChild(menuTypeSelectButton);
-    menuTypeSelect.appendChild(menuTypeSelectContent);
-    tool.appendChild(menuTypeSelect);
-
-    // 메뉴 텍스트
-    menuTF = document.createElement('input');
-    menuTF.setAttribute('type', 'text');
-    tool.appendChild(menuTF);
+    // removeColumn
+    let removeColumnBut = document.createElement('div');
+    removeColumnBut.className = 'lang-change-button';
+    removeColumnBut.addEventListener('click', removeColumn);
+    removeColumnBut.innerHTML = '컬럼제거<input style="font-size: 20px;" type="text" placeholder="순서(index) /  0번째부터">';
+    tool.appendChild(removeColumnBut);
 
 
     // description
@@ -159,4 +148,18 @@ function changeLanguage(evt) {
 
 function toEditMode(evt) {
     m.editMode = !m.editMode;
+}
+
+function addColumn() {
+    m.addColumn();
+}
+
+function removeColumn(evt) {
+    let index;
+    if (evt.target.children.length) {
+        index = evt.target.children[0].value;
+        if (index !== "" && Number.isInteger(Number(index))) {
+            m.removeColumn(index);
+        }
+    }
 }
