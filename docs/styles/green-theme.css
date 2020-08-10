@@ -184,6 +184,7 @@ body {
   top: 0px;
   left: 0px;
   background-color: white;
+  z-index: 2;
 }
 
 .menu-editor-input > input{
@@ -195,4 +196,12 @@ body {
   font-size: 20px;
   padding: 5px;
   font-family: "LotteMartHappy", sans-serif;
+}
+
+/* description */
+
+.menu-description {
+  width: 480px;
+  height: 230px;
+  background-color: white;
 }
