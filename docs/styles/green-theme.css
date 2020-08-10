@@ -172,6 +172,7 @@ body {
   position: relative;
   padding: 10px;
   z-index: 1;
+  width: 170px;
 }
 .menu-editor-item:hover {
   color: rgba(0, 0, 0, 50%);
@@ -182,7 +183,7 @@ body {
 .menu-editor-input {
   position: absolute;
   top: 0px;
-  left: 0px;
+  left: 190px;
   background-color: white;
   z-index: 2;
 }
