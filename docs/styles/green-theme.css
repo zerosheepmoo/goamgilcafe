@@ -92,7 +92,7 @@ body {
 
 .menu-container {
   display: table-cell;
-  width: 420px;
+  width: 430px;
   padding: 20px;
   height: 825px;
   top: 0px;
@@ -101,11 +101,6 @@ body {
 
 .menu-container:hover {
   display: table-cell;
-  width: 420px;
-  padding:20px;
-  height: 825px;
-  top: 0px;
-  color: whitesmoke;
   background-color: rgba(0, 0, 0, 50%);
   cursor: pointer;
 }
