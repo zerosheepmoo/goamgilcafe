@@ -227,13 +227,22 @@ let data = [
                 ]
             }, {
                 name: {
-                    KR: '오리지널 라떼',
-                    EN: 'Original Latte'
+                    KR: '초코 / 민트초코 라떼',
+                    EN: 'Choco / Mint-Choco Latte'
                 },
                 prices: [
                     { name: 'hot', price: 3900},
                     { name: 'ice', price: 4400}
                 ],
+            }, {
+                name: {
+                    KR: '말차 / 오곡 라떼',
+                    EN: 'Green Tea / Grain Latte'
+                },
+                prices: [
+                    { name: 'hot', price: 3900},
+                    { name: 'ice', price: 4400}
+                ]
                 // subItems: [{ 
                 //     name: {
                 //         KR: '초코', EN: 'Chocolate'
@@ -251,27 +260,27 @@ let data = [
                 //         prepared: true,
                 //     }
                 // }],
-                subText: {
-                    KR: {
-                        items: [
-                            {'초코': true},
-                            {'민트초코': true},
-                            {'말차': true},
-                            {'오곡': true},
-                        ],
-                        slicer: ' / '
-                    },
-                    EN: {
-                        items: [
-                            {'Chocolate': true},
-                            {'Mint-choco': true},
-                            {'Green Tea': true},
-                            {'Grain': true},
-                        ],
-                        slicer: ' / ',
-                        style: 'style="width: 400px; font-size: 16px;"'
-                    }
-                }
+                // subText: {
+                //     KR: {
+                //         items: [
+                //             {'초코': true},
+                //             {'민트초코': true},
+                //             {'말차': true},
+                //             {'오곡': true},
+                //         ],
+                //         slicer: ' / '
+                //     },
+                //     EN: {
+                //         items: [
+                //             {'Chocolate': true},
+                //             {'Mint-choco': true},
+                //             {'Green Tea': true},
+                //             {'Grain': true},
+                //         ],
+                //         slicer: ' / ',
+                //         style: 'style="width: 400px; font-size: 16px;"'
+                //     }
+                // }
             }, {
                 name: {
                     KR: '군고구마 라떼',
@@ -283,22 +292,21 @@ let data = [
                 }
             }, {
                 name: {
-                    KR: '흑임자 라떼',
-                    EN: 'Black Sesame Latte'
-                },
-                prices: {
-                    hot: 4400,
-                    ice: 4900 
-                },
-                isHot: true
-            }, {
-                name: {
                     KR: '바밤바 라떼',
                     EN: 'Babamba Latte'
                 },
                 prices: {
                     hot: 3900,
                     ice: 4400 
+                },
+            }, {
+                name: {
+                    KR: '흑임자 라떼',
+                    EN: 'Black Sesame Latte'
+                },
+                prices: {
+                    hot: 4400,
+                    ice: 4900 
                 },
                 isHot: true
             }, {
