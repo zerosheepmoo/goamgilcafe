@@ -22,3 +22,5 @@ function loadCSS() {
 }
 
 loadCSS();
+
+console.log('test end')
