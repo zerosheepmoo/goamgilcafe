@@ -629,8 +629,7 @@ let data = [
                             {Raspberry: true},
                             {Blueberry: true},
                             {Mango: true},
-                            {Peach: true},
-                            {Green tangerine: true}
+                            {Peach: true}
                         ],
                         slicer: ' / ',
                         style: 'style="font-size: 20px;"'
