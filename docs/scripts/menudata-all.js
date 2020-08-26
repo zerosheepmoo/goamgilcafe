@@ -49,7 +49,7 @@ let data = [
                 prices: [
                     { name: 'hot', price: 0, eventPrice: 0},
                     { name: 'ice', price: 3500, eventPrice: 3000}
-                ],
+                ], 
                 subText: {
                     KR: '<pre style="font-family: LotteMartHappy;margin: 0px; padding-top: 8px">   (take-out only)</pre>',
                     EN: '<pre style="font-family: LotteMartHappy;margin: 0px; padding-top: 8px">   (take-out only)</pre>'
@@ -69,7 +69,7 @@ let data = [
                     EN: 'Flat White'
                 },
                 prices: [
-                    { name: 'hot', price: 0},
+                    { name: 'hot', price: 3400},
                     { name: 'ice', price: 3900}
                 ]
             }, {
@@ -357,7 +357,7 @@ let data = [
                             {'얼그레이': true},
                             {'카모마일바닐라': true},
                             {'카모마일 레몬 글라스': true},
-                            {'로즈힙앤체리': true},
+                            {'히비스커스 로즈힙': true},
                             {'레몬진저': true},
                             {'페퍼민트 레몬': true}
                         ],
@@ -617,7 +617,8 @@ let data = [
                             {라즈베리: true},
                             {블루베리: true},
                             {망고: true},
-                            {복숭아: true}
+                            {복숭아: true},
+                            {청귤: true}
                         ],
                         slicer: ' / '
                     },
@@ -628,7 +629,8 @@ let data = [
                             {Raspberry: true},
                             {Blueberry: true},
                             {Mango: true},
-                            {Peach: true}
+                            {Peach: true},
+                            {Green tangerine: true}
                         ],
                         slicer: ' / ',
                         style: 'style="font-size: 20px;"'
