@@ -618,7 +618,9 @@ let data = [
                             {블루베리: true},
                             {망고: true},
                             {복숭아: true},
-                            {청귤: true}
+                            {청귤: true},
+                            {청포도: true},
+                            {레몬 : true}
                         ],
                         slicer: ' / '
                     },
