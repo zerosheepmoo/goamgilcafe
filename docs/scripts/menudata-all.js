@@ -550,7 +550,7 @@ let data = [
                         items: [
                             {딸기: true},
                             {블루베리: true},
-                            {트리블베리: true}
+                            {트리플베리: true}
                         ],
                         slicer: ' / ',
                     },
