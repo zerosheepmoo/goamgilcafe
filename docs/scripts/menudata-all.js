@@ -359,10 +359,11 @@ let data = [
                             {'카모마일 레몬 글라스': true},
                             {'히비스커스 로즈힙': true},
                             {'레몬진저': true},
-                            {'페퍼민트 레몬': true}
+                            {'페퍼민트 레몬': true},
+                            {'스트로베리': true}
                         ],
                         slicer: ' / ',
-                        style: 'style="width: 300px;"'
+                        style: 'style="font-size: 18px; width: 300px;"'
                     },
                     EN: {
                         items: [
@@ -371,7 +372,8 @@ let data = [
                             {'Chamomile Lemon Glass': true},
                             {'Rose Hip & Cherry': true},
                             {'Lemon Ginger': true},
-                            {'Peppermint Lemon': true}
+                            {'Peppermint Lemon': true},
+                            {'strawberry': true}
                         ],
                         slicer: ' / ',
                         style: 'style="font-size: 16px; width: 330px;"'
