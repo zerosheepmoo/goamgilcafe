@@ -237,7 +237,7 @@ let data = [
             }, {
                 name: {
                     KR: '말차 / 오곡 / 토피넛 라떼',
-                    EN: 'Green Tea / Grain / ToffeeNut Latte'
+                    EN: '<div style="font-size: 16px; width: 330px;">Green Tea / Grain / ToffeeNut Latte</div>'
                 },
                 prices: [
                     { name: 'hot', price: 3900},
@@ -362,6 +362,7 @@ let data = [
                             {'페퍼민트 레몬': true}
                         ],
                         slicer: ' / ',
+                        style: 'style="width: 300px;"'
                     },
                     EN: {
                         items: [
@@ -374,6 +375,7 @@ let data = [
                         ],
                         slicer: ' / ',
                         style: 'style="font-size: 16px; width: 330px;"'
+
                     }
                 }
             }, {
@@ -442,11 +444,10 @@ let data = [
         }
     ], [
         {
-            name: 'ade',
+            name: 'adeAndJuice',
             template: {
-                KR: 'ADE',
-                EN: 'ADE'
-            },
+                KR: '<div style="font-size: 42px; width: 375px">ADE & JUICE</div>',
+                EN: '<div style="font-size: 42px; width: 375px">ADE & JUICE</div>'            },
             options: {
                 title: {
                     subTitle: {
@@ -536,12 +537,39 @@ let data = [
                 prices: {
                     ice: 7000
                 }
+            }, {
+                name: {
+                    KR: '주스',
+                    EN: 'Juice'
+                },
+                prices: {
+                    ice: 5000
+                },
+                subText: {
+                    KR: {
+                        items: [
+                            {딸기: true},
+                            {블루베리: true},
+                            {트리블베리: true}
+                        ],
+                        slicer: ' / ',
+                    },
+                    EN: {
+                        items: [
+                            {Strawberry: true},
+                            {Blueberry: true},
+                            {TripleBerry: true}
+                        ],
+                        slicer: ' / ',
+                        style: 'style="font-size: 18px;"'
+                    }
+                }
             }]
         }, {
             name: 'shakeAndSmoo',
             template: {
                 KR: '<div style="font-size: 36px; width: 375px">SHAKE & SMOOTHIE</div>',
-                EN: '<div style="font-size: 36px; width: 375px">SHAKE & SMOOTHIE</div>'
+                EN: '<div style="font-size: 30px; width: 375px">SHAKE & SMOOTHIE</div>'
             },
             options: {
                 menuItem: {
@@ -622,7 +650,8 @@ let data = [
                             {청포도: true},
                             {레몬 : true}
                         ],
-                        slicer: ' / '
+                        slicer: ' / ',
+                        style: 'style="width: 360px;"'
                     },
                     EN: {
                         items: [
