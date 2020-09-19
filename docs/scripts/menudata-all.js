@@ -349,7 +349,7 @@ let data = [
                 },
                 prices: [
                     { name: 'hot', price: 3900},
-                    { name: 'ice', price: 0}
+                    { name: 'ice', price: 4400}
                 ],
                 subText: {
                     KR: {
