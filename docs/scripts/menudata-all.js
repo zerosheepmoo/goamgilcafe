@@ -197,8 +197,8 @@ let data = [
         {
             name: 'latte',
             template: {
-                KR: 'LATTE',
-                EN: 'LATTE'
+                KR: '<div style="font-size: 38px; width: 375px">LATTE</div>',
+                EN: '<div style="font-size: 38px; width: 375px">LATTE</div>'
             },
             options: {
                 title: {
@@ -326,13 +326,22 @@ let data = [
                 prices: [
                     { name: 'hot', price: 5000},
                     { name: 'ice', price: 5500}
-                ]
-            }]
+            ]
+            }, {
+                name: {
+                    KR: '로투스 라떼',
+                    EN: 'Lotus Biscoff Latte'
+                },
+                prices: {
+                    hot: 5000,
+                    ice: 5500
+                }
+            },]
         }, {
             name: 'tea',
             template: {
-                KR: 'TEA',
-                EN: 'TEA'
+                KR: '<div style="font-size: 38px; width: 375px">TEA</div>',
+                EN: '<div style="font-size: 38px; width: 375px">TEA</div>'
             },
             options: {
                 menuItem: {
@@ -448,8 +457,8 @@ let data = [
         {
             name: 'adeAndJuice',
             template: {
-                KR: '<div style="font-size: 42px; width: 375px">ADE & JUICE</div>',
-                EN: '<div style="font-size: 42px; width: 375px">ADE & JUICE</div>'            },
+                KR: '<div style="font-size: 38px; width: 375px">ADE & JUICE</div>',
+                EN: '<div style="font-size: 38px; width: 375px">ADE & JUICE</div>'},
             options: {
                 title: {
                     subTitle: {
@@ -565,9 +574,17 @@ let data = [
                         slicer: ' / ',
                         style: 'style="font-size: 18px;"'
                     }
-                }
-            }]
-        }, {
+                },
+            }, {
+                name: {
+                    KR: '딸바주스',
+                    EN: 'StrawberryBananaJuice'
+                },
+                prices: {
+                    ice: 5500
+            }
+        }]
+    }, {
             name: 'shakeAndSmoo',
             template: {
                 KR: '<div style="font-size: 36px; width: 375px">SHAKE & SMOOTHIE</div>',
