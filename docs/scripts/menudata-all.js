@@ -577,7 +577,7 @@ let data = [
                 },
             }, {
                 name: {
-                    KR: '딸바주스',
+                    KR: '딸기바나나주스',
                     EN: 'StrawberryBananaJuice'
                 },
                 prices: {
