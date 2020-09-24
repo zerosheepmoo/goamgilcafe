@@ -316,8 +316,7 @@ let data = [
                 },
                 prices: {
                     ice: 5500
-                },
-                isPrepared: true
+                }
             }, {
                 name: {
                     KR: '밀크티',
@@ -455,10 +454,11 @@ let data = [
         }
     ], [
         {
-            name: 'adeAndJuice',
+            name: 'ade',
             template: {
-                KR: '<div style="font-size: 38px; width: 375px">ADE & JUICE</div>',
-                EN: '<div style="font-size: 38px; width: 375px">ADE & JUICE</div>'},
+                KR: 'ADE',
+                EN: 'ADE'
+            },
             options: {
                 title: {
                     subTitle: {
@@ -548,42 +548,7 @@ let data = [
                 prices: {
                     ice: 7000
                 }
-            }, {
-                name: {
-                    KR: '리얼베리쥬스',
-                    EN: 'RealBerryJucie'
-                },
-                prices: {
-                    ice: 5000
-                },
-                subText: {
-                    KR: {
-                        items: [
-                            {딸기: true},
-                            {블루베리: true},
-                            {트리플베리: true}
-                        ],
-                        slicer: ' / ',
-                    },
-                    EN: {
-                        items: [
-                            {Strawberry: true},
-                            {Blueberry: true},
-                            {TripleBerry: true}
-                        ],
-                        slicer: ' / ',
-                        style: 'style="font-size: 18px;"'
-                    }
-                },
-            }, {
-                name: {
-                    KR: '딸기바나나주스',
-                    EN: 'StrawberryBananaJuice'
-                },
-                prices: {
-                    ice: 5500
-            }
-        }]
+            },]
     }, {
             name: 'shakeAndSmoo',
             template: {
@@ -646,8 +611,7 @@ let data = [
                 },
                 prices: {
                     ice: 5800
-                },
-                isPrepared: true
+                }
             }, {
                 name: {
                     KR: '요거트 스무디',
@@ -686,9 +650,7 @@ let data = [
                     }
                 }
             }]
-        }
-    ], [
-        {
+        }, {
             name: 'shavedIce',
             template: {
                 KR: '빙수',
@@ -704,29 +666,101 @@ let data = [
             },
             items: [{
                 name: {
-                    KR: '클래식 빙수',
-                    EN: '<div style="width: 370px">Classic / Glutnious Rice Cake</div>'
+                    KR: '찹쌀떡 / 인절미 / 치즈 빙수',
+                    EN: '<div style="width: 370px; font-size: 17px;">Glutnious Rice Cake / Injeolmi / Cheese</div>'
                 },
                 prices: {
                     ice: 8900
+                }
+            }, {
+                name: {
+                    KR: '망고치즈큐브 빙수',
+                    EN: 'Mango Cheese-cube'
+                },
+                prices: {
+                    ice: 10900
+                }
+            }]
+        }
+    ], [
+        {
+            name: 'juice',
+            template: {
+                KR: 'JUICE',
+                EN: 'JUICE'
+            },
+            options: {
+                title: {
+                    subTitle: {
+                        hotIceType: 'ice'
+                    }
+                },
+                menuItem: {
+                    isHotText: {
+                        KR: '인기',
+                        EN: 'POP'
+                    }
+                }
+            },
+            items: [{
+                name: {
+                    KR: '과일쥬스',
+                    EN: 'Fruit Juice'
+                },
+                prices: {
+                    ice: 5000
                 },
                 subText: {
                     KR: {
                         items: [
-                            {찹쌀떡: true},
-                            {인절미: true},
-                            {치즈: true}
+                            {망고: true},
+                            {파인애플: true},
+                            {복숭아: true}
+                        ],
+                        slicer: ' / ',
+                    },
+                    EN: {
+                        items: [
+                            {mango: true},
+                            {pineapple: true},
+                            {peach: true}
                         ],
                         slicer: ' / ',
                     }
                 }
             }, {
                 name: {
-                    KR: '망고치즈큐브 빙수',
-                    EN: 'Mango Chesse-cube'
+                    KR: '리얼베리쥬스',
+                    EN: 'Real Barry Juice'
                 },
                 prices: {
-                    ice: 10900
+                    ice: 5000
+                },
+                subText: {
+                    KR: {
+                        items: [
+                            {딸기: true},
+                            {블루베리: true},
+                            {트리플베리: true}
+                        ],
+                        slicer: ' / ',
+                    },
+                    EN: {
+                        items: [
+                            {strawberry: true},
+                            {blueberries: true},
+                            {tripleberry: true}
+                        ],
+                        slicer: ' / ',
+                    }
+                }
+            }, {
+                name: {
+                    KR: '딸기바나나쥬스',
+                    EN: 'Strawberry&BananaJuice'
+                },
+                prices: {
+                    ice: 5500
                 }
             }]
         }, {
