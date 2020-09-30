@@ -43,6 +43,16 @@ let data = [
                 ]
             }, {
                 name: {
+                    KR: '아메리카노 스몰',
+                    EN: 'Americano Small'
+                },
+                prices: [
+                    { name: 'hot', price: 1900, eventPrice: 1900 },
+                    { name: 'ice', price: 2200, eventPrice: 2200 }
+                ],
+                isEvent: true
+            }, {
+                name: {
                     KR: '착한 아아 (1L)',
                     EN: 'Charming Ice-Ame (1L)'
                 },
