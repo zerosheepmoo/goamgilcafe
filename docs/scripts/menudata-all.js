@@ -50,7 +50,11 @@ let data = [
                     { name: 'hot', price: 1900, eventPrice: 1900 },
                     { name: 'ice', price: 2200, eventPrice: 2200 }
                 ],
-                isEvent: true
+                isEvent: true, 
+                subText: {
+                    KR: '<pre style="font-family: LotteMartHappy;margin: 0px; padding-top: 8px">   (take-out only)</pre>',
+                    EN: '<pre style="font-family: LotteMartHappy;margin: 0px; padding-top: 8px">   (take-out only)</pre>'
+                }
             }, {
                 name: {
                     KR: '착한 아아 (1L)',
