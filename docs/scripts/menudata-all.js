@@ -43,20 +43,6 @@ let data = [
                 ]
             }, {
                 name: {
-                    KR: '아메리카노 스몰',
-                    EN: 'Americano Small'
-                },
-                prices: [
-                    { name: 'hot', price: 1900, eventPrice: 1900 },
-                    { name: 'ice', price: 2200, eventPrice: 2200 }
-                ],
-                isEvent: true, 
-                subText: {
-                    KR: '<pre style="font-family: LotteMartHappy;margin: 0px; padding-top: 8px">   (take-out only)</pre>',
-                    EN: '<pre style="font-family: LotteMartHappy;margin: 0px; padding-top: 8px">   (take-out only)</pre>'
-                }
-            }, {
-                name: {
                     KR: '착한 아아 (1L)',
                     EN: 'Charming Ice-Ame (1L)'
                 },
@@ -626,6 +612,14 @@ let data = [
                 },
                 prices: {
                     ice: 5500
+                }
+            }, {
+                name: {
+                    KR: '리얼바나나쉐이크',
+                    EN: 'Real Banana Shake'
+                },
+                prices: {
+                    ice: 5800
                 }
             }, {
                 name: {
