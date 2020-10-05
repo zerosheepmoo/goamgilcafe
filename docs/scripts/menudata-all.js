@@ -250,6 +250,15 @@ let data = [
                 ],
             }, {
                 name: {
+                    KR: '카라멜라떼',
+                    EN: 'Caramel Latte'
+                },
+                prices: {
+                    hot: 3400,
+                    ice: 3900
+                }
+            }, {
+                name: {
                     KR: '말차 / 오곡 / 토피넛 라떼',
                     EN: '<div style="font-size: 16px; width: 330px;">Green Tea / Grain / ToffeeNut Latte</div>'
                 },
