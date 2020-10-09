@@ -187,8 +187,8 @@ let data = [
             },
             items: [{
                     name: {
-                        KR: '유자차 / 레몬차 / 자몽차',
-                        EN: '<div style="font-size: 19px; width: 280px">Yuja / Lemon / Grapefruit Tea</div>'
+                        KR: '<div style="font-size: 19px; width: 280px">유자차 / 레몬차 / 자몽차 / 청귤차</div>',
+                        EN: '<div style="font-size: 19px; width: 280px">Yuja / Lemon / Grapefruit Tea / Green Tangerine</div>'
                     },
                     prices: [
                         { name: 'hot', price: 4300},
