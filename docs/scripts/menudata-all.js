@@ -192,7 +192,7 @@ let data = [
                     },
                     prices: [
                         { name: 'hot', price: 4300},
-                        { name: 'ice', price: 0}
+                        { name: 'ice', price: 4800}
                     ]
                 }, {
                     name: {
