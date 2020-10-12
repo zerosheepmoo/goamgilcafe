@@ -196,14 +196,32 @@ let data = [
                     ]
                 }, {
                     name: {
-                        KR: '쌍화대추차',
-                        EN: 'Ssanghwa Jujube Tea'
+                        KR: '제주한라봉차',
+                        EN: 'Jeju Hallabong Tea'
                     },
                     prices: [
-                        { name: 'hot', price: 5500 },
-                        { name: 'ice', price: 0 }
-                    ],
-                    isPrepared: true
+                        { name: 'hot', price: 4300},
+                        { name: 'ice', price: 4800}
+                    ] 
+                }, {
+                    name: {
+                        KR: '견과율무차',
+                        EN: 'Jeju Hallabong Tea'
+                    },
+                    prices: [
+                        { name: 'hot', price: 3900},
+                        { name: 'ice', price: 4400}
+                    ] 
+                // }, {
+                //     name: {
+                //         KR: '쌍화대추차',
+                //         EN: 'Ssanghwa Jujube Tea'
+                //     },
+                //     prices: [
+                //         { name: 'hot', price: 5500 },
+                //         { name: 'ice', price: 0 }
+                //     ],
+                //     isPrepared: true
                 }
             ]
         }
@@ -540,6 +558,14 @@ let data = [
                 }
             }, {
                 name: {
+                    KR: '제주한라봉에이드',
+                    EN: 'Jeju Hallabong Ade'
+                },
+                prices: {
+                    ice: 5000
+                },
+            }, {
+                name: {
                     KR: '모히또',
                     EN: 'Mojito'
                 },
@@ -662,7 +688,9 @@ let data = [
                             {복숭아: true},
                             {청귤: true},
                             {청포도: true},
-                            {레몬 : true}
+                            {레몬 : true},
+                            {제주한라봉: true}
+                            
                         ],
                         slicer: ' / ',
                         style: 'style="width: 360px;"'
@@ -674,42 +702,12 @@ let data = [
                             {Raspberry: true},
                             {Blueberry: true},
                             {Mango: true},
-                            {Peach: true}
+                            {Peach: true},
+                            {"Jeju Hallabong": true}
                         ],
                         slicer: ' / ',
                         style: 'style="font-size: 20px;"'
                     }
-                }
-            }]
-        }, {
-            name: 'shavedIce',
-            template: {
-                KR: '빙수',
-                EN: 'ShavedIce'
-            },
-            options: {
-                menuItem: {
-                    isHotText: {
-                        KR: '인기',
-                        EN: 'POP'
-                    }
-                }
-            },
-            items: [{
-                name: {
-                    KR: '찹쌀떡 / 인절미 / 치즈 빙수',
-                    EN: '<div style="width: 370px; font-size: 17px;">Glutnious Rice Cake / Injeolmi / Cheese</div>'
-                },
-                prices: {
-                    ice: 8900
-                }
-            }, {
-                name: {
-                    KR: '망고치즈큐브 빙수',
-                    EN: 'Mango Cheese-cube'
-                },
-                prices: {
-                    ice: 10900
                 }
             }]
         }
@@ -836,10 +834,10 @@ let data = [
                 }
             ]
         }, {
-            name: 'extra',
+            name: 'shavedIce',
             template: {
-                KR: 'EXTRA',
-                EN: 'EXTRA'
+                KR: '빙수',
+                EN: 'ShavedIce'
             },
             options: {
                 menuItem: {
@@ -849,75 +847,107 @@ let data = [
                     }
                 }
             },
-            items : [
-                {
-                    name: {
-                        KR: '샷추가',
-                        EN: 'Add Shot'
-                    },
-                    prices: {
-                        add: 500
-                    },
-                    subText: {
-                        KR: {
-                            items: [
-                                {에스프레소: true},
-                                {바닐라: true},
-                                {헤이즐넛: true},
-                            ],
-                            slicer: ' / '
-                        },
-                        EN: {
-                            items: [
-                                {Espresso: true},
-                                {Vanilla: true},
-                                {Hazelnut: true},
-                            ],
-                            slicer: ' / '
-                        }
-                    },
-                }, {
-                    name: {
-                        KR: '우유추가',
-                        EN: 'Add Milk'
-                    },
-                    prices: {
-                        add: 500
-                    }
-                }, {
-                    name: {
-                        KR: '펄추가',
-                        EN: 'Add Pearls'
-                    },
-                    prices: {
-                        add: 500
-                    },
-                    subText: {
-                        KR: {
-                            items: [
-                                {화이트: true},
-                                {블랙: true}
-                            ],
-                            slicer: ' / '
-                        },
-                        EN: {
-                            items: [
-                                {White: true},
-                                {Black: false}
-                            ],
-                            slicer: ' / '
-                        }
-                    }
-                }, {
-                    name: {
-                        KR: '사이즈업',
-                        EN: 'Size-up'
-                    },
-                    prices: {
-                        add: 1000
-                    }
+            items: [{
+                name: {
+                    KR: '찹쌀떡 / 인절미 / 치즈 빙수',
+                    EN: '<div style="width: 370px; font-size: 17px;">Glutnious Rice Cake / Injeolmi / Cheese</div>'
+                },
+                prices: {
+                    ice: 8900
                 }
-            ]
+            }, {
+                name: {
+                    KR: '망고치즈큐브 빙수',
+                    EN: 'Mango Cheese-cube'
+                },
+                prices: {
+                    ice: 10900
+                }
+            }]
         }
+        // }, {
+        //     name: 'extra',
+        //     template: {
+        //         KR: 'EXTRA',
+        //         EN: 'EXTRA'
+        //     },
+        //     options: {
+        //         menuItem: {
+        //             isHotText: {
+        //                 KR: '인기',
+        //                 EN: 'POP'
+        //             }
+        //         }
+        //     },
+        //     items : [
+        //         {
+        //             name: {
+        //                 KR: '샷추가',
+        //                 EN: 'Add Shot'
+        //             },
+        //             prices: {
+        //                 add: 500
+        //             },
+        //             subText: {
+        //                 KR: {
+        //                     items: [
+        //                         {에스프레소: true},
+        //                         {바닐라: true},
+        //                         {헤이즐넛: true},
+        //                     ],
+        //                     slicer: ' / '
+        //                 },
+        //                 EN: {
+        //                     items: [
+        //                         {Espresso: true},
+        //                         {Vanilla: true},
+        //                         {Hazelnut: true},
+        //                     ],
+        //                     slicer: ' / '
+        //                 }
+        //             },
+        //         }, {
+        //             name: {
+        //                 KR: '우유추가',
+        //                 EN: 'Add Milk'
+        //             },
+        //             prices: {
+        //                 add: 500
+        //             }
+        //         }, {
+        //             name: {
+        //                 KR: '펄추가',
+        //                 EN: 'Add Pearls'
+        //             },
+        //             prices: {
+        //                 add: 500
+        //             },
+        //             subText: {
+        //                 KR: {
+        //                     items: [
+        //                         {화이트: true},
+        //                         {블랙: true}
+        //                     ],
+        //                     slicer: ' / '
+        //                 },
+        //                 EN: {
+        //                     items: [
+        //                         {White: true},
+        //                         {Black: false}
+        //                     ],
+        //                     slicer: ' / '
+        //                 }
+        //             }
+        //         }, {
+        //             name: {
+        //                 KR: '사이즈업',
+        //                 EN: 'Size-up'
+        //             },
+        //             prices: {
+        //                 add: 1000
+        //             }
+        //         }
+        //     ]
+        // }
     ]
 ]
