@@ -206,7 +206,7 @@ let data = [
                 }, {
                     name: {
                         KR: '견과율무차',
-                        EN: 'Jeju Hallabong Tea'
+                        EN: 'Nuts Adlay Tea'
                     },
                     prices: [
                         { name: 'hot', price: 3900},
