@@ -295,8 +295,8 @@ let data = [
                 }
             }, {
                 name: {
-                    KR: '<div style="font-size: 20px; width: 330px;">말차 / 오곡 / 율무 / 토피넛 라떼</div>',
-                    EN: '<div style="font-size: 19px; width: 330px;">Green Tea / Grain / Adlay / ToffeeNut Latte</div>'
+                    KR: '<div style="font-size: 20px; width: 330px;">말차 / 오곡 / 토피넛 라떼</div>',
+                    EN: '<div style="font-size: 19px; width: 330px;">Green Tea / Grain / ToffeeNut Latte</div>'
                 },
                 prices: [
                     { name: 'hot', price: 3900},
@@ -340,6 +340,15 @@ let data = [
                 //         style: 'style="width: 400px; font-size: 16px;"'
                 //     }
                 // }
+            }, {
+                name: {
+                    KR: '견과율무 라떼',
+                    EN: 'Nut Ablay Latte'
+                },
+                prices: {
+                    hot: 4400,
+                    ice: 4900
+                }
             }, {
                 name: {
                     KR: '군고구마 라떼',
