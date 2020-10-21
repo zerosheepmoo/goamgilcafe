@@ -196,6 +196,15 @@ let data = [
                     ]
                 }, {
                     name: {
+                        KR: '<div style="font-size: 19px; width: 280px">꿀대추차 / 꿀모과차 / 꿀생강차</div>',
+                        EN: '<div style="font-size: 19px; width: 280px">Honey Jujube / Honey quince / Honey ginger</div>'
+                    },
+                    prices: [
+                        { name: 'hot', price: 4300},
+                        { name: 'ice', price: 4800}
+                    ]
+                }, {
+                    name: {
                         KR: '제주한라봉차',
                         EN: 'Jeju Hallabong Tea'
                     },
@@ -286,8 +295,8 @@ let data = [
                 }
             }, {
                 name: {
-                    KR: '말차 / 오곡 / 토피넛 라떼',
-                    EN: '<div style="font-size: 16px; width: 330px;">Green Tea / Grain / ToffeeNut Latte</div>'
+                    KR: '<div style="font-size: 20px; width: 330px;">말차 / 오곡 / 율무 / 토피넛 라떼</div>',
+                    EN: '<div style="font-size: 19px; width: 330px;">Green Tea / Grain / Adlay / ToffeeNut Latte</div>'
                 },
                 prices: [
                     { name: 'hot', price: 3900},
