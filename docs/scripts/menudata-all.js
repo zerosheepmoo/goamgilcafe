@@ -222,6 +222,15 @@ let data = [
                 //         { name: 'ice', price: 0 }
                 //     ],
                 //     isPrepared: true
+                }, {
+                    name: {
+                        KR: '속삭임 국화차',
+                        EN: 'Chrysanthemum tea'
+                    },
+                    prices: {
+                        hot: 5000,
+                        ice: 5500
+                    }
                 }
             ]
         }
