@@ -92,7 +92,7 @@ let data = [
                     EN: 'Dalgona Latte'
                 },
                 prices: [
-                    { name: 'hot', price: 0 },
+                    { name: 'hot', price: 4400 },
                     { name: 'ice', price: 4900 }
                 ],
                 isHot: true
@@ -403,7 +403,16 @@ let data = [
                     hot: 5000,
                     ice: 5500
                 }
-            },]
+            }, {
+                name: {
+                    KR: '달고나 밀크',
+                    EN: 'Dalgona Milk'
+                },
+                prices: {
+                    hot: 3900,
+                    ice: 4400
+                }
+            }]
         }, {
             name: 'tea',
             template: {
@@ -717,7 +726,6 @@ let data = [
                             {청포도: true},
                             {레몬 : true},
                             {제주한라봉: true}
-                            
                         ],
                         slicer: ' / ',
                         style: 'style="width: 360px;"'
@@ -843,15 +851,6 @@ let data = [
                     }
                 }, {
                     name: {
-                        KR: '골든 메달리스트',
-                        EN: 'Golden Medalist'
-                    },
-                    prices: {
-                        ice: 7000
-                    },
-                    isPrepared: true
-                }, {
-                    name: {
                         KR: '샹그리아',
                         EN: 'Sangria'
                     },
@@ -890,8 +889,45 @@ let data = [
                 prices: {
                     ice: 10900
                 }
-            }]
-        }
+            }],
+         }, {
+                name: 'halloween',
+                template: {
+                    KR: '<div style="color: orange;">할로윈</div>',
+                    EN: '<div style="color: orange;">Halloween</div>'
+                },
+                options: {
+                    menuItem: {
+                        isHotText: {
+                            KR: '인기',
+                            EN: 'POP'
+                        },
+                        isEventText: {
+                            KR: '이벤트',
+                            EN: 'Event'
+                        }
+                    }
+                },
+                items: [
+                    {
+                        name: {
+                            KR: '<div style="color: orange;">할로윈샷 / 토핑</div>',
+                            EN: '<div style="color: orange;">Halloween shot / topping</div>',
+                        },
+                        prices: {
+                            ice: 500
+                        }
+                    }, {
+                        name: {
+                            KR: '<div style="color: orange;">미드나잇코크</div>',
+                            EN: '<div style="color: orange;">Midnight Coke</div>'
+                        },
+                        prices: {
+                            ice: 5000
+                        }
+                    }
+                ]
+            }
         // }, {
         //     name: 'extra',
         //     template: {
