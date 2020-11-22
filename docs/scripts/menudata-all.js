@@ -221,16 +221,6 @@ let data = [
                         { name: 'hot', price: 3900},
                         { name: 'ice', price: 4400}
                     ] 
-                // }, {
-                //     name: {
-                //         KR: '쌍화대추차',
-                //         EN: 'Ssanghwa Jujube Tea'
-                //     },
-                //     prices: [
-                //         { name: 'hot', price: 5500 },
-                //         { name: 'ice', price: 0 }
-                //     ],
-                //     isPrepared: true
                 }, {
                     name: {
                         KR: '속삭임 국화차',
@@ -240,6 +230,15 @@ let data = [
                         hot: 5000,
                         ice: 5500
                     }
+                }, {
+                    name: {
+                        KR: '쌍화대추차',
+                        EN: 'Ssanghwa Jujube Tea'
+                    },
+                    prices: [
+                        { name: 'hot', price: 6000 },
+                        { name: 'ice', price: 0 }
+                    ],
                 }
             ]
         }
@@ -890,44 +889,7 @@ let data = [
                     ice: 10900
                 }
             }],
-         }, {
-                name: 'halloween',
-                template: {
-                    KR: '<div style="color: orange;">할로윈</div>',
-                    EN: '<div style="color: orange;">Halloween</div>'
-                },
-                options: {
-                    menuItem: {
-                        isHotText: {
-                            KR: '인기',
-                            EN: 'POP'
-                        },
-                        isEventText: {
-                            KR: '이벤트',
-                            EN: 'Event'
-                        }
-                    }
-                },
-                items: [
-                    {
-                        name: {
-                            KR: '<div style="color: orange;">할로윈샷 / 토핑</div>',
-                            EN: '<div style="color: orange;">Halloween shot / topping</div>',
-                        },
-                        prices: {
-                            ice: 500
-                        }
-                    }, {
-                        name: {
-                            KR: '<div style="color: orange;">미드나잇코크</div>',
-                            EN: '<div style="color: orange;">Midnight Coke</div>'
-                        },
-                        prices: {
-                            ice: 5000
-                        }
-                    }
-                ]
-            }
+        }
         // }, {
         //     name: 'extra',
         //     template: {
