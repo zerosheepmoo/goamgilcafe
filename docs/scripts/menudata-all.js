@@ -187,8 +187,8 @@ let data = [
             },
             items: [{
                     name: {
-                        KR: '<div style="font-size: 19px; width: 280px">유자차 / 레몬차 / 자몽차 / 청귤차</div>',
-                        EN: '<div style="font-size: 19px; width: 280px">Yuja / Lemon / Grapefruit Tea / Green Tangerine</div>'
+                        KR: '<div style="font-size: 19px; width: 280px">유자차 / 레몬차 / 자몽차 / 청귤차 / 라임차</div>',
+                        EN: '<div style="font-size: 19px; width: 280px">Yuja / Lemon / Grapefruit Tea / Green Tangerine / Lime Tea</div>'
                     },
                     prices: [
                         { name: 'hot', price: 4300},
@@ -569,7 +569,8 @@ let data = [
                             {파인애플: true},
                             {키위: true},
                             {패션푸룻: true},
-                            {라즈베리: true}
+                            {라즈베리: true},
+                            {라임: true}
                         ],
                         slicer: ' / ',
                     },
@@ -585,7 +586,8 @@ let data = [
                             {'Pineapple': true},
                             {Kiwi: true},
                             {'Passion Fruit': true},
-                            {Raspberry: true}
+                            {Raspberry: true},
+                            {Lime: true}
                         ],
                         slicer: ' / ',
                         style: 'style="font-size: 18px;"'
@@ -724,10 +726,11 @@ let data = [
                             {청귤: true},
                             {청포도: true},
                             {레몬 : true},
-                            {제주한라봉: true}
+                            {제주한라봉: true},
+                            {자두: true}
                         ],
                         slicer: ' / ',
-                        style: 'style="width: 360px;"'
+                        style: 'style="width: 340px;"'
                     },
                     EN: {
                         items: [
@@ -737,7 +740,8 @@ let data = [
                             {Blueberry: true},
                             {Mango: true},
                             {Peach: true},
-                            {"Jeju Hallabong": true}
+                            {"Jeju Hallabong": true},
+                            {Plum: true}
                         ],
                         slicer: ' / ',
                         style: 'style="font-size: 20px;"'
