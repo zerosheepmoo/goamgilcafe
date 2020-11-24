@@ -240,10 +240,17 @@ let data = [
                         hot: 5000,
                         ice: 5500
                     }
+                }, {
+                    name: {
+                        KR: '쌍화대추차',
+                },
+                    prices: {
+                        hot: 6000
                 }
-            ]
-        }
-    ], [
+            }
+        ]
+    }
+], [
         {
             name: 'latte',
             template: {
@@ -707,6 +714,14 @@ let data = [
                 }
             }, {
                 name: {
+                KR: '군고구마 스무디',
+                EN: 'Roasted Sweet Potato Smoothie'
+                },
+                prices: {
+                    ice: 5500
+                }
+            }, {
+                name: {
                     KR: '요거트 스무디',
                     EN: 'Yogurt Smoothie'
                 },
@@ -890,44 +905,7 @@ let data = [
                     ice: 10900
                 }
             }],
-         }, {
-                name: 'halloween',
-                template: {
-                    KR: '<div style="color: orange;">할로윈</div>',
-                    EN: '<div style="color: orange;">Halloween</div>'
-                },
-                options: {
-                    menuItem: {
-                        isHotText: {
-                            KR: '인기',
-                            EN: 'POP'
-                        },
-                        isEventText: {
-                            KR: '이벤트',
-                            EN: 'Event'
-                        }
-                    }
-                },
-                items: [
-                    {
-                        name: {
-                            KR: '<div style="color: orange;">할로윈샷 / 토핑</div>',
-                            EN: '<div style="color: orange;">Halloween shot / topping</div>',
-                        },
-                        prices: {
-                            ice: 500
-                        }
-                    }, {
-                        name: {
-                            KR: '<div style="color: orange;">미드나잇코크</div>',
-                            EN: '<div style="color: orange;">Midnight Coke</div>'
-                        },
-                        prices: {
-                            ice: 5000
-                        }
-                    }
-                ]
-            }
+        }
         // }, {
         //     name: 'extra',
         //     template: {
