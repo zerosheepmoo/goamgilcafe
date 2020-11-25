@@ -923,30 +923,28 @@ let data = [
                     KR: '샌드위치세트',
                     EN: 'SandwichSet'
                 },
-                prices: {
-                    ice: 4900,
-                    eventPrice: 4900
-                }, 
+                prices: [{ name: 'set', price: 4900, eventPrice: 4900}],
                 isEvent: true
             }, {
                 name: {
                     KR: '핫도그세트',
                     EN: 'HotdogSet'
                 },
-                prices: {
+                prices: [{name: 'set',
                     ice: 6900,
                     eventPrice: 6900
-                },
+                }],
                 isEvent: true
             }, {
                 name: {
                     KR: '시카고피자세트',
                     EN: 'ChicagoPizzaSet'
                 },
-                prices: {
+                prices: [{
+                    name: 'set',
                     ice: 8900,
                     eventPrice: 8900
-                },
+                }],
                 isEvent: true
             }, {
                 name: {
@@ -954,7 +952,7 @@ let data = [
                     EN: 'CoffeeUpgrade'
                 },
                 prices: {
-                    ice: 1000,
+                    set: 1000,
                 }
             }, {
                 name: {
@@ -962,7 +960,7 @@ let data = [
                     EN: 'Change to Ade'
                 },
                 prices: {
-                    ice: 2000
+                    set: 2000
                 }
             }]
             }

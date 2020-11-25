@@ -112,7 +112,7 @@ body {
   color: rgb(156, 156, 156);
 }
 .is-event {
-  color: #a04e4e;
+  color: #b60000;
 }
 
 .is-hot {
@@ -131,7 +131,7 @@ body {
 
 .is-event-flag {
   color: white;
-  background-color: #a04e4e;;
+  background-color: #f30000;;
   font-family: LotteMartHappy;
   font-size: 15px;
   padding: 3px;
