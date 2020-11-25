@@ -924,36 +924,42 @@ let data = [
                     EN: 'SandwichSet'
                 },
                 prices: {
-                    ice: 4900
+                    ice: 4900,
+                    eventPrice: 4900
                 }, 
+                isEvent: true
             }, {
                 name: {
                     KR: '핫도그세트',
                     EN: 'HotdogSet'
                 },
                 prices: {
-                    ice: 6900
-                }
+                    ice: 6900,
+                    eventPrice: 6900
+                },
+                isEvent: true
             }, {
                 name: {
                     KR: '시카고피자세트',
                     EN: 'ChicagoPizzaSet'
                 },
                 prices: {
-                    ice: 8900
-                }
+                    ice: 8900,
+                    eventPrice: 8900
+                },
+                isEvent: true
             }, {
                 name: {
                     KR: '커피업그레이드',
                     EN: 'CoffeeUpgrade'
                 },
                 prices: {
-                    ice: 1000
+                    ice: 1000,
                 }
             }, {
                 name: {
-                    KR: '에이드로변경',
-                    EN: 'AdeChange'
+                    KR: '에이드로 변경',
+                    EN: 'Change to Ade'
                 },
                 prices: {
                     ice: 2000
