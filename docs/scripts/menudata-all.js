@@ -94,8 +94,7 @@ let data = [
                 prices: [
                     { name: 'hot', price: 4400 },
                     { name: 'ice', price: 4900 }
-                ],
-                isHot: true
+                ]
             }, {
                 name: {
                     KR: '바닐라 / 헤이즐넛 라떼',
@@ -108,12 +107,13 @@ let data = [
             }, {
                 name: {
                     KR: '돌체(연유) 라떼',
-                    EN: 'Dolce Latte'
+                    EN: 'Dolce Latte',
                 },
                 prices: [
                     { name: 'hot', price: 3700},
                     { name: 'ice', price: 4200}
-                ]
+                ],
+                isHot: true
             }, {
                 name: {
                     KR: '카푸치노',
@@ -359,7 +359,8 @@ let data = [
                 prices: {
                     hot: 3900,
                     ice: 4400
-                }
+                },
+                isHot: true
             }, {
                 name: {
                     KR: '바밤바 라떼',
@@ -377,8 +378,7 @@ let data = [
                 prices: {
                     hot: 4400,
                     ice: 4900 
-                },
-                isHot: true
+                }
             }, {
                 name: {
                     KR: '돼지바 라떼',
@@ -683,8 +683,7 @@ let data = [
                 },
                 prices: {
                     ice: 5500
-                },
-                isHot: true
+                }
             }, {
                 name: {
                     KR: '바밤바 쉐이크',
@@ -708,7 +707,8 @@ let data = [
                 },
                 prices: {
                     ice: 5800
-                }
+                },
+                isHot: true
             }, {
                 name: {
                 KR: '군고구마 스무디',
@@ -986,6 +986,14 @@ let data = [
                 prices: [{ name: 'meal', price: 2900 }],
             }, {
                 name: {
+                    KR: '베이글',
+                    EN: 'bagel'
+                },
+                prices: {
+                    meal: 3500,
+                },
+            }, {
+                name: {
                     KR: '핫도그',
                     EN: 'Hotdog'
                 },
@@ -1001,14 +1009,6 @@ let data = [
                     name: 'meal',
                     price: 6500,
                 }],
-            }, {
-                name: {
-                    KR: '베이글',
-                    EN: 'bagel'
-                },
-                prices: {
-                    meal: 3500,
-                }
             }]
         }
         // }, {
