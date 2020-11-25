@@ -759,7 +759,38 @@ let data = [
                     }
                 }
             }]
-        }
+        }, {
+            name: 'shavedIce',
+            template: {
+                KR: '빙수',
+                EN: 'ShavedIce'
+            },
+            options: {
+                menuItem: {
+                    isHotText: {
+                        KR: '인기',
+                        EN: 'POP'
+                    }
+                }
+            },
+            items: [{
+                name: {
+                    KR: '찹쌀떡 / 인절미 / 치즈 빙수',
+                    EN: '<div style="width: 370px; font-size: 17px;">Glutnious Rice Cake / Injeolmi / Cheese</div>'
+                },
+                prices: {
+                    ice: 8900
+                }
+            }, {
+                name: {
+                    KR: '망고치즈큐브 빙수',
+                    EN: 'Mango Cheese-cube'
+                },
+                prices: {
+                    ice: 10900
+                }
+            }],
+        },
     ], [
         {
             name: 'juice',
@@ -874,41 +905,10 @@ let data = [
                 }
             ]
         }, {
-            name: 'shavedIce',
+            name: 'brunchset',
             template: {
-                KR: '빙수',
-                EN: 'ShavedIce'
-            },
-            options: {
-                menuItem: {
-                    isHotText: {
-                        KR: '인기',
-                        EN: 'POP'
-                    }
-                }
-            },
-            items: [{
-                name: {
-                    KR: '찹쌀떡 / 인절미 / 치즈 빙수',
-                    EN: '<div style="width: 370px; font-size: 17px;">Glutnious Rice Cake / Injeolmi / Cheese</div>'
-                },
-                prices: {
-                    ice: 8900
-                }
-            }, {
-                name: {
-                    KR: '망고치즈큐브 빙수',
-                    EN: 'Mango Cheese-cube'
-                },
-                prices: {
-                    ice: 10900
-                }
-            }],
-        }, {
-            name: 'brunch',
-            template: {
-                KR: '<span style="color: red">Brunch</span>',
-                EN: '<span style="color: red">Brunch</span>'
+                KR: '<span style="color: #ff8080">Brunch Set</span>',
+                EN: '<span style="color: #ff8080">Brunch Set</span>'
             },
             options: {
                 menuItem: {
@@ -924,14 +924,15 @@ let data = [
                     EN: 'SandwichSet'
                 },
                 prices: [{ name: 'set', price: 4900, eventPrice: 4900}],
-                isEvent: true
+                isPrepared: true
+                // isEvent: true
             }, {
                 name: {
                     KR: '핫도그세트',
                     EN: 'HotdogSet'
                 },
                 prices: [{name: 'set',
-                    ice: 6900,
+                    price: 6900,
                     eventPrice: 6900
                 }],
                 isEvent: true
@@ -942,7 +943,7 @@ let data = [
                 },
                 prices: [{
                     name: 'set',
-                    ice: 8900,
+                    price: 8900,
                     eventPrice: 8900
                 }],
                 isEvent: true
@@ -963,7 +964,53 @@ let data = [
                     set: 2000
                 }
             }]
-            }
+        }, {
+            name: 'brunch',
+            template: {
+                KR: 'Brunch',
+                EN: 'Brunch'
+            },
+            options: {
+                menuItem: {
+                    isHotText: {
+                        KR: '인기',
+                        En: 'POP'
+                    }
+                }
+            },
+            items: [{
+                name: {
+                    KR: '샌드위치',
+                    EN: 'Sandwich'
+                },
+                prices: [{ name: 'meal', price: 2900 }],
+            }, {
+                name: {
+                    KR: '핫도그',
+                    EN: 'Hotdog'
+                },
+                prices: [{name: 'meal',
+                    price: 4500,
+                }],
+            }, {
+                name: {
+                    KR: '시카고피자',
+                    EN: 'ChicagoPizza'
+                },
+                prices: [{
+                    name: 'meal',
+                    price: 6500,
+                }],
+            }, {
+                name: {
+                    KR: '베이글',
+                    EN: 'bagel'
+                },
+                prices: {
+                    meal: 3500,
+                }
+            }]
+        }
         // }, {
         //     name: 'extra',
         //     template: {
