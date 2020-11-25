@@ -638,7 +638,7 @@ let data = [
                     ice: 7000
                 }
             },]
-    }, {
+        }, {
             name: 'shakeAndSmoo',
             template: {
                 KR: '<div style="font-size: 36px; width: 375px">SHAKE & SMOOTHIE</div>',
@@ -904,7 +904,62 @@ let data = [
                     ice: 10900
                 }
             }],
-        }
+        }, {
+            name: 'brunch',
+            template: {
+                KR: '<span style="color: red">Brunch</span>',
+                EN: '<span style="color: red">Brunch</span>'
+            },
+            options: {
+                menuItem: {
+                    isHotText: {
+                        KR: '인기',
+                        En: 'POP'
+                    }
+                }
+            },
+            items: [{
+                name: {
+                    KR: '샌드위치세트',
+                    EN: 'SandwichSet'
+                },
+                prices: {
+                    ice: 4900
+                }, 
+            }, {
+                name: {
+                    KR: '핫도그세트',
+                    EN: 'HotdogSet'
+                },
+                prices: {
+                    ice: 6900
+                }
+            }, {
+                name: {
+                    KR: '시카고피자세트',
+                    EN: 'ChicagoPizzaSet'
+                },
+                prices: {
+                    ice: 8900
+                }
+            }, {
+                name: {
+                    KR: '커피업그레이드',
+                    EN: 'CoffeeUpgrade'
+                },
+                prices: {
+                    ice: 1000
+                }
+            }, {
+                name: {
+                    KR: '에이드로변경',
+                    EN: 'AdeChange'
+                },
+                prices: {
+                    ice: 2000
+                }
+            }]
+            }
         // }, {
         //     name: 'extra',
         //     template: {
