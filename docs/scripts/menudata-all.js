@@ -548,17 +548,22 @@ let data = [
                     isHotText: {
                         KR: '인기',
                         EN: 'POP'
+                    },
+                    isEventText: {
+                        KR: '한정',
+                        EN: 'Limited'
                     }
                 }
             },
             items: [{
                 name: {
                     KR: '에이드',
-                    EN: 'Ade'
+                    EN: 'Ade', 
                 },
-                prices: {
-                    ice: 5000
-                },
+                prices: [{
+                    name: 'ice',
+                    price: 5000
+                }],
                 subText: {
                     KR: {
                         items: [
@@ -637,7 +642,14 @@ let data = [
                 prices: {
                     ice: 7000
                 }
-            },]
+            }, {
+                name: {
+                    KR: '코코젤리사이다',
+                    EN: 'COCO-Jelly Soda'
+                },
+                prices: [{name: 'ice', price: 3000, eventPrice: 3000}],
+                isEvent: true
+            }]
         }, {
             name: 'shakeAndSmoo',
             template: {
