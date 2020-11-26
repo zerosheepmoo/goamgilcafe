@@ -999,6 +999,7 @@ let data = [
                 },
                 prices: [{name: 'meal',
                     price: 4500,
+                    eventPrice: 3900
                 }],
             }, {
                 name: {
