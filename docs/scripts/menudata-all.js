@@ -998,7 +998,7 @@ let data = [
                     EN: 'Hotdog'
                 },
                 prices: [{name: 'meal',
-                    price: 4500,
+                    price: 3900,
                 }],
             }, {
                 name: {
