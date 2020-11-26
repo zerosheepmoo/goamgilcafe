@@ -907,8 +907,8 @@ let data = [
         // }, {
             name: 'brunchset',
             template: {
-                KR: '<span style="color: #ff8080">Brunch Set</span>',
-                EN: '<span style="color: #ff8080">Brunch Set</span>'
+                KR: '<div style="width: 450px; color: #ff8080">Brunch Set<span style="font-size: 14px"> (브런치+아메)</span></div>',
+                EN: '<div style="width: 450px; color: #ff8080">Brunch Set<span style="font-size: 14px"> (brunch+Ame)</span></div>'
             },
             options: {
                 menuItem: {
