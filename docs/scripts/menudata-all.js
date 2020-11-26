@@ -759,37 +759,37 @@ let data = [
                     }
                 }
             }]
-        }, {
-            name: 'shavedIce',
-            template: {
-                KR: '빙수',
-                EN: 'ShavedIce'
-            },
-            options: {
-                menuItem: {
-                    isHotText: {
-                        KR: '인기',
-                        EN: 'POP'
-                    }
-                }
-            },
-            items: [{
-                name: {
-                    KR: '찹쌀떡 / 인절미 / 치즈 빙수',
-                    EN: '<div style="width: 370px; font-size: 17px;">Glutnious Rice Cake / Injeolmi / Cheese</div>'
-                },
-                prices: {
-                    ice: 8900
-                }
-            }, {
-                name: {
-                    KR: '망고치즈큐브 빙수',
-                    EN: 'Mango Cheese-cube'
-                },
-                prices: {
-                    ice: 10900
-                }
-            }],
+        // }, {
+        //     name: 'shavedIce',
+        //     template: {
+        //         KR: '빙수',
+        //         EN: 'ShavedIce'
+        //     },
+        //     options: {
+        //         menuItem: {
+        //             isHotText: {
+        //                 KR: '인기',
+        //                 EN: 'POP'
+        //             }
+        //         }
+        //     },
+        //     items: [{
+        //         name: {
+        //             KR: '찹쌀떡 / 인절미 / 치즈 빙수',
+        //             EN: '<div style="width: 370px; font-size: 17px;">Glutnious Rice Cake / Injeolmi / Cheese</div>'
+        //         },
+        //         prices: {
+        //             ice: 8900
+        //         }
+        //     }, {
+        //         name: {
+        //             KR: '망고치즈큐브 빙수',
+        //             EN: 'Mango Cheese-cube'
+        //         },
+        //         prices: {
+        //             ice: 10900
+        //         }
+        //     }],
         },
     ], [
         {
@@ -873,38 +873,38 @@ let data = [
                 }
             }]
         }, {
-            name: 'virginCocktail',
-            template: {
-                KR: '<div style="width: 375px">Virgin Cocktail</div>',
-                EN: '<div style="width: 375px">Virgin Cocktail</div>'
-            },
-            items: [{
-                    name: {
-                        KR: '피나콜라다',
-                        EN: 'Piña Colada'
-                    },
-                    prices: {
-                        ice: 7000
-                    }
-                }, {
-                    name: {
-                        KR: '파인애플 썬샤인',
-                        EN: 'Pineapple Sunshine'
-                    },
-                    prices: {
-                        ice: 7000
-                    }
-                }, {
-                    name: {
-                        KR: '샹그리아',
-                        EN: 'Sangria'
-                    },
-                    prices: {
-                        ice: 7000
-                    }
-                }
-            ]
-        }, {
+        //     name: 'virginCocktail',
+        //     template: {
+        //         KR: '<div style="width: 375px">Virgin Cocktail</div>',
+        //         EN: '<div style="width: 375px">Virgin Cocktail</div>'
+        //     },
+        //     items: [{
+        //             name: {
+        //                 KR: '피나콜라다',
+        //                 EN: 'Piña Colada'
+        //             },
+        //             prices: {
+        //                 ice: 7000
+        //             }
+        //         }, {
+        //             name: {
+        //                 KR: '파인애플 썬샤인',
+        //                 EN: 'Pineapple Sunshine'
+        //             },
+        //             prices: {
+        //                 ice: 7000
+        //             }
+        //         }, {
+        //             name: {
+        //                 KR: '샹그리아',
+        //                 EN: 'Sangria'
+        //             },
+        //             prices: {
+        //                 ice: 7000
+        //             }
+        //         }
+        //     ]
+        // }, {
             name: 'brunchset',
             template: {
                 KR: '<span style="color: #ff8080">Brunch Set</span>',
@@ -915,6 +915,10 @@ let data = [
                     isHotText: {
                         KR: '인기',
                         En: 'POP'
+                    },
+                    isPreparedText: {
+                        KR: 'Sold-out',
+                        EN: 'Sold-out'
                     }
                 }
             },
@@ -945,6 +949,28 @@ let data = [
                     name: 'set',
                     price: 8900,
                     eventPrice: 8900
+                }],
+                isEvent: true
+            }, {
+                name: {
+                    KR: '<span style="font-size: 18px">새우 / 햄야채 / 김치 볶음밥 세트</span>',
+                    EN: '<span style="font-size: 18px">Shrimp / Ham Vegetables / Kimchi Fried Rice Set</span>'
+                },
+                prices: [{
+                    name: 'set',
+                    price: 10900,
+                    eventPrice: 10900
+                }],
+                isEvent: true
+            }, {
+                name: {
+                    KR: '<span style="font-size: 18px">낙지 / 치킨데리야끼 볶음밥 세트</span>',
+                    EN: '<span style="font-size: 18px">Small Octopus / Chicken-deriyaki Fried Set</span>'
+                },
+                prices: [{
+                    name: 'set',
+                    price: 11400,
+                    eventPrice: 11400
                 }],
                 isEvent: true
             }, {
@@ -1011,6 +1037,25 @@ let data = [
                     name: 'meal',
                     price: 6500,
                 }],
+            }, {
+                name: {
+                    KR: '새우 / 햄야채 / 김치 볶음밥',
+                    EN: 'Shrimp / Ham Vegetables / Kimchi Fried Rice'
+                },
+                prices: [{
+                    name: 'meal',
+                    price: 8900,
+                }],
+                isHot:true
+            }, {
+                name: {
+                    KR: '낙지 / 치킨데리야끼 볶음밥',
+                    EN: 'Ham Vegetable Fried'
+                },
+                prices: [{
+                    name: 'meal',
+                    price: 9400,
+                }],
             }]
         }
         // }, {
@@ -1046,7 +1091,7 @@ let data = [
         //                     slicer: ' / '
         //                 },
         //                 EN: {
-        //                     items: [
+        //                   items: [
         //                         {Espresso: true},
         //                         {Vanilla: true},
         //                         {Hazelnut: true},

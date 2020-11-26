@@ -63,9 +63,13 @@ document.addEventListener('DOMContentLoaded', function() {
     m = new Menu('app');
     // coffee and traditional tea
     addContent(m, data);
+
+    m._columns[3]._childs[1]._childs[0]._childs[1].updateText('MEAL', 'KR');
+    m._columns[3]._childs[1].options.menuItem.flagXPos = {prepared: -20, event: -5, hot: -36}
+    m._columns[3]._childs[2].options.menuItem.flagXPos = {prepared: -20, event: -5, hot: 0}
 });
 
-function addContent(menu, data) {
+function addContent(m, data) {
     for (let i = 0, len = data.length; i < len; i++) {
         let menuCol = m.addColumn();
         addSectorWithData(menuCol, data[i]);
