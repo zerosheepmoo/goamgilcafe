@@ -1001,6 +1001,7 @@ let data = [
                     price: 4500,
                     eventPrice: 3900
                 }],
+                isEvent: true
             }, {
                 name: {
                     KR: '시카고피자',
