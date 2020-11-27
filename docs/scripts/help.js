@@ -341,3 +341,13 @@ class Component {
 
 let dt = new DataTracker(document.getElementById('app'), data);
 window.dt = dt;
+
+let exprt = document.createElement('button');
+exprt.textContent = '다운로드하기';
+document.body.appendChild(exprt);
+exprt.addEventListener('click', function() {
+    dt.exportData();
+});
+exprt.style.position = 'fixed';
+exprt.style.top = '20px';
+exprt.style.right = '20px';
