@@ -954,6 +954,17 @@ let data = [
                 isEvent: true
             }, {
                 name: {
+                    KR: '포켓치즈토스트세트',
+                    EN: 'PocketCheeseToastSet'
+                },
+                prices: [{
+                    name: 'set',
+                    price: 6600,
+                    eventPrice: 6600
+                }],
+                isEvent: true
+            }, {
+                name: {
                     KR: '크로크무슈세트',
                     EN: 'Crokmush Set'
                 },
@@ -1051,6 +1062,15 @@ let data = [
                     eventPrice: 3900
                 }],
                 isEvent: true
+            }, {
+                name: {
+                    KR: '포켓치즈토스트',
+                    EN: 'Pocket Cheese Toast'
+                },
+                prices: [{
+                    name: 'meal',
+                    price: 3900
+                }],
             }, {
                 name: {
                     KR: '크로크무슈',
