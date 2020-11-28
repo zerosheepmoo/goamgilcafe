@@ -940,8 +940,8 @@ let data = [
                     EN: 'SandwichSet'
                 },
                 prices: [{ name: 'set', price: 4900, eventPrice: 4900}],
-                isPrepared: true
-                // isEvent: true
+                // isPrepared: true
+                isEvent: true
             }, {
                 name: {
                     KR: '핫도그세트',
