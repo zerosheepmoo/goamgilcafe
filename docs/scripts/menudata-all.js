@@ -936,7 +936,7 @@ let data = [
             },
             items: [{
                 name: {
-                    KR: '샌드위치세트',
+                    KR: '대만 샌드위치 세트',
                     EN: 'SandwichSet'
                 },
                 prices: [{ name: 'set', price: 4900, eventPrice: 4900}],
@@ -944,7 +944,7 @@ let data = [
                 isEvent: true
             }, {
                 name: {
-                    KR: '핫도그세트',
+                    KR: '핫도그 세트',
                     EN: 'HotdogSet'
                 },
                 prices: [{name: 'set',
@@ -954,18 +954,7 @@ let data = [
                 isEvent: true
             }, {
                 name: {
-                    KR: '포켓치즈토스트세트',
-                    EN: 'PocketCheeseToastSet'
-                },
-                prices: [{
-                    name: 'set',
-                    price: 6600,
-                    eventPrice: 6600
-                }],
-                isEvent: true
-            }, {
-                name: {
-                    KR: '크로크무슈세트',
+                    KR: '크로크무슈 세트',
                     EN: 'Crokmush Set'
                 },
                 prices: [{
@@ -976,7 +965,7 @@ let data = [
                 isEvent: true
             }, {
                 name: {
-                    KR: '시카고피자세트',
+                    KR: '시카고피자 세트',
                     EN: 'ChicagoPizzaSet'
                 },
                 prices: [{
@@ -1009,7 +998,7 @@ let data = [
                 isEvent: true
             }, {
                 name: {
-                    KR: '커피업그레이드',
+                    KR: '커피 업그레이드',
                     EN: 'CoffeeUpgrade'
                 },
                 prices: {
@@ -1040,7 +1029,7 @@ let data = [
             },
             items: [{
                 name: {
-                    KR: '샌드위치',
+                    KR: '대만 샌드위치',
                     EN: 'Sandwich'
                 },
                 prices: [{ name: 'meal', price: 2900 }],
