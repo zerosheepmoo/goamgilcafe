@@ -949,6 +949,17 @@ let data = [
                 },
                 prices: [{name: 'set',
                     price: 6900,
+                    eventPrice: 6600
+                }],
+                isEvent: true
+            }, {
+                name: {
+                    KR: '크로크무슈세트',
+                    EN: 'Crokmush Set'
+                },
+                prices: [{
+                    name: 'set',
+                    price: 6900,
                     eventPrice: 6900
                 }],
                 isEvent: true
