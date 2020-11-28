@@ -1042,6 +1042,15 @@ let data = [
                 isEvent: true
             }, {
                 name: {
+                    KR: '크로크무슈',
+                    EN: 'Crokmush'
+                },
+                prices: [{
+                    name: 'meal',
+                    price: 4800
+                }],
+            }, {
+                name: {
                     KR: '시카고피자',
                     EN: 'ChicagoPizza'
                 },
