@@ -1,3 +1,6 @@
 node_modules
 src
 dist
+tests
+.DS_Store
+tsconfig.json
