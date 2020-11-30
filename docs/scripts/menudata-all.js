@@ -1040,6 +1040,17 @@ let data = [
             },
             items: [{
                 name: {
+                    KR: '고암길토스트',
+                    EN: 'GoamgilToast'
+                },
+                prices: [{
+                    name: 'meal',
+                    price: 1500,
+                    eventPrice: 1500
+                }],
+                isEvent: true
+            }, {
+                name: {
                     KR: '샌드위치',
                     EN: 'Sandwich'
                 },
