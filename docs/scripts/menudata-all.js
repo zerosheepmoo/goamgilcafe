@@ -1004,7 +1004,7 @@ let data = [
             }, {
                 name: {
                     KR: '모둠감자튀김',
-                    EN: 'Assorted French fries'
+                    EN: 'specialFrench fries'
                 },
                 prices: [{
                     name: 'meal',
