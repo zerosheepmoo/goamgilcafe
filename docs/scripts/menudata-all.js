@@ -852,7 +852,7 @@ let data = [
             }, {
                 name: {
                     KR: '리얼베리쥬스',
-                    EN: 'Real Barry Juice'
+                    EN: 'Real Berry Juice'
                 },
                 prices: {
                     ice: 5000
