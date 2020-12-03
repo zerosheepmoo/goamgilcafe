@@ -917,114 +917,6 @@ let data = [
         //         }
         //     ]
         // }, {
-            name: 'brunchset',
-            template: {
-                KR: '<div style="width: 450px; color: #ff8080">Brunch Set<span style="font-size: 14px"> (브런치+아메)</span></div>',
-                EN: '<div style="width: 450px; color: #ff8080">Brunch Set<span style="font-size: 14px"> (brunch+Ame)</span></div>'
-            },
-            options: {
-                menuItem: {
-                    isHotText: {
-                        KR: '인기',
-                        En: 'POP'
-                    },
-                    isPreparedText: {
-                        KR: 'Sold-out',
-                        EN: 'Sold-out'
-                    }
-                }
-            },
-            items: [{
-                name: {
-                    KR: '샌드위치세트',
-                    EN: 'SandwichSet'
-                },
-                prices: [{ name: 'set', price: 4900, eventPrice: 4900}],
-                // isPrepared: true
-                isEvent: true
-            }, {
-                name: {
-                    KR: '핫도그세트',
-                    EN: 'HotdogSet'
-                },
-                prices: [{name: 'set',
-                    price: 6900,
-                    eventPrice: 6600
-                }],
-                isEvent: true
-            }, {
-                name: {
-                    KR: '포켓치즈토스트세트',
-                    EN: 'PocketCheeseToastSet'
-                },
-                prices: [{
-                    name: 'set',
-                    price: 6600,
-                    eventPrice: 6600
-                }],
-                isEvent: true
-            }, {
-                name: {
-                    KR: '크로크무슈세트',
-                    EN: 'Crokmush Set'
-                },
-                prices: [{
-                    name: 'set',
-                    price: 6900,
-                    eventPrice: 6900
-                }],
-                isEvent: true
-            }, {
-                name: {
-                    KR: '시카고피자세트',
-                    EN: 'ChicagoPizzaSet'
-                },
-                prices: [{
-                    name: 'set',
-                    price: 8900,
-                    eventPrice: 8900
-                }],
-                isEvent: true
-            }, {
-                name: {
-                    KR: '<span style="font-size: 18px">새우 / 햄야채 / 김치 볶음밥 세트</span>',
-                    EN: '<span style="font-size: 18px">Shrimp / Ham Vegetables / Kimchi Fried Rice Set</span>'
-                },
-                prices: [{
-                    name: 'set',
-                    price: 10900,
-                    eventPrice: 10900
-                }],
-                isEvent: true
-            }, {
-                name: {
-                    KR: '<span style="font-size: 18px">낙지 / 치킨데리야끼 볶음밥 세트</span>',
-                    EN: '<span style="font-size: 18px">Small Octopus / Chicken-deriyaki Fried Set</span>'
-                },
-                prices: [{
-                    name: 'set',
-                    price: 11400,
-                    eventPrice: 11400
-                }],
-                isEvent: true
-            }, {
-                name: {
-                    KR: '커피업그레이드',
-                    EN: 'CoffeeUpgrade'
-                },
-                prices: {
-                    set: 1000,
-                }
-            }, {
-                name: {
-                    KR: '에이드로 변경',
-                    EN: 'Change to Ade'
-                },
-                prices: {
-                    set: 2000
-                }
-            }]
-        }, {
             name: 'brunch',
             template: {
                 KR: 'Brunch',
@@ -1057,48 +949,66 @@ let data = [
                 prices: [{ name: 'meal', price: 2900 }],
             }, {
                 name: {
-                    KR: '베이글',
-                    EN: 'bagel'
+                    KR: '베이글(플레인/어니언)',
+                    EN: 'bagel(Plain/Onion'
                 },
                 prices: {
                     meal: 3500,
                 },
             }, {
                 name: {
+                    KR: '치즈베이글',
+                    EN: 'CheeseBagel'
+                },
+                prices: [{
+                    name: 'meal',
+                    price: 3800
+                }],
+            }, {
+                name: {
                     KR: '핫도그',
                     EN: 'Hotdog'
                 },
                 prices: [{name: 'meal',
-                    price: 4500,
-                    eventPrice: 3900
-                }],
-                isEvent: true
-            }, {
-                name: {
-                    KR: '포켓치즈토스트',
-                    EN: 'Pocket Cheese Toast'
-                },
-                prices: [{
-                    name: 'meal',
-                    price: 3900
-                }],
-            }, {
-                name: {
-                    KR: '크로크무슈',
-                    EN: 'Crokmush'
-                },
-                prices: [{
-                    name: 'meal',
-                    price: 4800
-                }],
-            }, {
-                name: {
-                    KR: '시카고피자',
-                    EN: 'ChicagoPizza'
-                },
+                price: 4500,
+                eventPrice: 3900
+            }],
+            isEvent: true
+        }, {
+            name: {
+                KR: '포켓치즈토스트',
+                EN: 'Pocket Cheese Toast'
+            },
+            prices: [{
+                name: 'meal',
+                price: 3900
+            }],
+        }, {
+            name: {
+                KR: '크로크무슈',
+                EN: 'Crokmush'
+            },
+            prices: [{
+                name: 'meal',
+                price: 4800
+            }],
+        }, {
+            name: {
+                KR: '시카고피자',
+                EN: 'ChicagoPizza'
+            },
                 prices: [{
                     name: 'meal',
                     price: 6500,
+                }],
+            }, {
+                name: {
+                    KR: '모둠감자튀김',
+                    EN: 'Assorted French fries'
+                },
+                prices: [{
+                    name: 'meal',
+                    price: 8800
                 }],
             }, {
                 name: {
@@ -1120,34 +1030,99 @@ let data = [
                     price: 9400,
                 }],
             }]
-        }
+        }, {
+        name: 'brunchset',
+        template: {
+            KR: '<div style="width: 450px; color: #ff8080">Brunch Set<span style="font-size: 14px"> (브런치+아메)</span></div>',
+            EN: '<div style="width: 450px; color: #ff8080">Brunch Set<span style="font-size: 14px"> (brunch+Ame)</span></div>'
+        },
+        options: {
+            menuItem: {
+                isHotText: {
+                    KR: '인기',
+                    En: 'POP'
+                },
+                isPreparedText: {
+                    KR: 'Sold-out',
+                    EN: 'Sold-out'
+                }
+            }
+        },
+        items: [{
+            name: {
+                KR: '샌드위치세트',
+                EN: 'SandwichSet'
+            },
+            prices: [{ name: 'set', price: 4900, eventPrice: 4900}],
+            // isPrepared: true
+            isEvent: true
+        }, {
+            name: {
+                KR: '<span style="font-size: 18px">새우 / 햄야채 / 김치 볶음밥 세트</span>',
+                EN: '<span style="font-size: 18px">Shrimp / Ham Vegetables / Kimchi Fried Rice Set</span>'
+            },
+            prices: [{
+                name: 'set',
+                price: 10900,
+                eventPrice: 10900
+            }],
+            isEvent: true
+        }, {
+            name: {
+                KR: '<span style="font-size: 18px">낙지 / 치킨데리야끼 볶음밥 세트</span>',
+                EN: '<span style="font-size: 18px">Small Octopus / Chicken-deriyaki Fried Set</span>'
+            },
+            prices: [{
+                name: 'set',
+                price: 11400,
+                eventPrice: 11400
+            }],
+            isEvent: true
+        }, {
+            name: {
+                KR: '커피업그레이드',
+                EN: 'CoffeeUpgrade'
+            },
+            prices: {
+                set: 1000,
+            }
+        }, {
+            name: {
+                KR: '에이드로 변경',
+                EN: 'Change to Ade'
+            },
+            prices: {
+                set: 2000
+            }
+        }]
+    }
         // }, {
-        //     name: 'extra',
-        //     template: {
-        //         KR: 'EXTRA',
+            //     name: 'extra',
+            //     template: {
+                //         KR: 'EXTRA',
         //         EN: 'EXTRA'
         //     },
         //     options: {
-        //         menuItem: {
+            //         menuItem: {
         //             isHotText: {
-        //                 KR: '인기',
-        //                 EN: 'POP'
+            //                 KR: '인기',
+            //                 EN: 'POP'
         //             }
         //         }
         //     },
         //     items : [
-        //         {
-        //             name: {
+            //         {
+                //             name: {
         //                 KR: '샷추가',
         //                 EN: 'Add Shot'
         //             },
         //             prices: {
-        //                 add: 500
+            //                 add: 500
         //             },
         //             subText: {
-        //                 KR: {
-        //                     items: [
-        //                         {에스프레소: true},
+            //                 KR: {
+                //                     items: [
+                    //                         {에스프레소: true},
         //                         {바닐라: true},
         //                         {헤이즐넛: true},
         //                     ],
