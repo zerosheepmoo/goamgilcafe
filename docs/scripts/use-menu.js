@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function() {
     addContent(m, data);
 
     m._columns[3]._childs[1]._childs[0]._childs[1].updateText('MEAL', 'KR');
-    m._columns[3]._childs[1].options.menuItem.flagXPos = {prepared: -20, event: -5, hot: -36}
+    m._columns[3]._childs[1].options.menuItem.flagXPos = {prepared: -20, event: -5, hot: 0}
     m._columns[3]._childs[2].options.menuItem.flagXPos = {prepared: -20, event: -5, hot: 0}
 });
 
