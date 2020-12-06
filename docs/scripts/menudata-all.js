@@ -965,16 +965,6 @@ let data = [
                     price: 3800
                 }],
             }, {
-                name: {
-                    KR: '핫도그',
-                    EN: 'Hotdog'
-                },
-                prices: [{name: 'meal',
-                price: 4500,
-                eventPrice: 3900
-            }],
-            isEvent: true
-        }, {
             name: {
                 KR: '포켓치즈토스트',
                 EN: 'Pocket Cheese Toast'
