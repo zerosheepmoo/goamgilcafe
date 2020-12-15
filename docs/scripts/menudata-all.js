@@ -1010,16 +1010,18 @@ let data = [
                     price: 8900,
                 }],
                 isHot:true
-            }, {
-                name: {
-                    KR: '낙지 / 치킨데리야끼 볶음밥',
-                    EN: 'Ham Vegetable Fried'
-                },
-                prices: [{
-                    name: 'meal',
-                    price: 9400,
-                }],
-            }]
+            }, 
+            // {
+            //     name: {
+            //         KR: '낙지 / 치킨데리야끼 볶음밥',
+            //         EN: 'Ham Vegetable Fried'
+            //     },
+            //     prices: [{
+            //         name: 'meal',
+            //         price: 9400,
+            //     }],
+            // }
+        ]
         }, {
         name: 'brunchset',
         template: {
@@ -1057,18 +1059,20 @@ let data = [
                 eventPrice: 10900
             }],
             isEvent: true
-        }, {
-            name: {
-                KR: '<span style="font-size: 18px">낙지 / 치킨데리야끼 볶음밥 세트</span>',
-                EN: '<span style="font-size: 18px">Small Octopus / Chicken-deriyaki Fried Set</span>'
-            },
-            prices: [{
-                name: 'set',
-                price: 11400,
-                eventPrice: 11400
-            }],
-            isEvent: true
-        }, {
+        }, 
+        // {
+        //     name: {
+        //         KR: '<span style="font-size: 18px">낙지 / 치킨데리야끼 볶음밥 세트</span>',
+        //         EN: '<span style="font-size: 18px">Small Octopus / Chicken-deriyaki Fried Set</span>'
+        //     },
+        //     prices: [{
+        //         name: 'set',
+        //         price: 11400,
+        //         eventPrice: 11400
+        //     }],
+        //     isEvent: true
+        // },
+        {
             name: {
                 KR: '커피업그레이드',
                 EN: 'CoffeeUpgrade'
