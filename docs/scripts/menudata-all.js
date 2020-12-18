@@ -1010,7 +1010,16 @@ let data = [
                     price: 8900,
                 }],
                 isHot:true
-            }, 
+            }, {
+                name: {
+                    KR: '떡볶이',
+                    EN: 'Tteokbokki'
+                },
+                prices: [{
+                    name: 'meal',
+                    price: 9900
+                }]
+            }
             // {
             //     name: {
             //         KR: '낙지 / 치킨데리야끼 볶음밥',
