@@ -1002,6 +1002,15 @@ let data = [
                 }],
             }, {
                 name: {
+                    KR: '<div style="width: 300px;">샐러드 (리코타 치즈 / 케이준)</div>',
+                    EN: 'Salad (Ricotta Cheese / Cajun)'
+                },
+                prices: [{
+                    name: 'meal',
+                    price: 8900
+                }]
+            }, {
+                name: {
                     KR: '새우 / 햄야채 / 김치 볶음밥',
                     EN: 'Shrimp / Ham Vegetables / Kimchi Fried Rice'
                 },
@@ -1018,15 +1027,6 @@ let data = [
                 prices: [{
                     name: 'meal',
                     price: 9900
-                }]
-            }, {
-                name: {
-                    KR: '<div style="width: 300px;">샐러드 (리코타 치즈 / 케이준)</div>',
-                    EN: 'Salad (Ricotta Cheese / Cajun)'
-                },
-                prices: [{
-                    name: 'meal',
-                    price: 8900
                 }]
             }
             // {
