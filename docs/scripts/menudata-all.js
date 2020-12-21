@@ -1019,6 +1019,15 @@ let data = [
                     name: 'meal',
                     price: 9900
                 }]
+            }, {
+                name: {
+                    KR: '<div style="width: 300px;">샐러드 (리코타 치즈 / 케이준)</div>',
+                    EN: 'Salad (Ricotta Cheese / Cajun)'
+                },
+                prices: [{
+                    name: 'meal',
+                    price: 8900
+                }]
             }
             // {
             //     name: {
