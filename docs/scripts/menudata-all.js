@@ -1021,8 +1021,8 @@ let data = [
                 isHot:true
             }, {
                 name: {
-                    KR: '떡볶이',
-                    EN: 'Tteokbokki'
+                    KR: '고암길떡볶이',
+                    EN: 'Goamgil Tteokbokki'
                 },
                 prices: [{
                     name: 'meal',
