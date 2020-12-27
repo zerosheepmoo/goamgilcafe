@@ -993,6 +993,15 @@ let data = [
                 }],
             }, {
                 name: {
+                    KR: '숭늉 누릉지',
+                    EN: 'Sungnik Nurungji'
+                },
+                prices: [{
+                    name: 'meal',
+                    price: 4800
+                }],
+            }, {
+                name: {
                     KR: '모둠감자튀김',
                     EN: 'specialFrench fries'
                 },
