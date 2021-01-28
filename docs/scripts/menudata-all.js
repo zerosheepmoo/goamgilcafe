@@ -381,6 +381,15 @@ let data = [
                 }
             }, {
                 name: {
+                    KR: '인절미 라떼',
+                    EN: 'Injeolmi Latte'
+                },
+                prices: {
+                    hot: 4400,
+                    ice: 4900
+                }
+            }, {
+                name: {
                     KR: '돼지바 라떼',
                     EN: 'Pig-bar Latte'
                 },
@@ -723,6 +732,14 @@ let data = [
                 isHot: true
             }, {
                 name: {
+                    KR: '인절미 쉐이크',
+                    EN: 'Injeolmi Shake'
+                },
+                prices: {
+                    ice: 5800
+                }
+            }, {
+                name: {
                 KR: '군고구마 스무디',
                 EN: 'Roasted Sweet Potato Smoothie'
                 },
@@ -930,18 +947,20 @@ let data = [
                     }
                 }
             },
-            items: [{
-                name: {
-                    KR: '고암길토스트',
-                    EN: 'GoamgilToast'
-                },
-                prices: [{
-                    name: 'meal',
-                    price: 1500,
-                    eventPrice: 1500
-                }],
-                isEvent: true
-            }, {
+            items: [
+            //     {
+            //     name: {
+            //         KR: '고암길토스트',
+            //         EN: 'GoamgilToast'
+            //     },
+            //     prices: [{
+            //         name: 'meal',
+            //         price: 1500,
+            //         eventPrice: 1500
+            //     }],
+            //     isEvent: true
+            // }, 
+            {
                 name: {
                     KR: '샌드위치',
                     EN: 'Sandwich'
