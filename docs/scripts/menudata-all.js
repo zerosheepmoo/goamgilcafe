@@ -1001,16 +1001,18 @@ let data = [
                 name: 'meal',
                 price: 4800
             }],
-        }, {
-            name: {
-                KR: '시카고피자',
-                EN: 'ChicagoPizza'
-            },
-                prices: [{
-                    name: 'meal',
-                    price: 6500,
-                }],
-            }, {
+        }, 
+        // {
+        //     name: {
+        //         KR: '시카고피자',
+        //         EN: 'ChicagoPizza'
+        //     },
+        //         prices: [{
+        //             name: 'meal',
+        //             price: 6500,
+        //         }],
+        //     }, 
+            {
                 name: {
                     KR: '숭늉 누릉지',
                     EN: 'Sungnik Nurungji'
@@ -1036,7 +1038,8 @@ let data = [
                 prices: [{
                     name: 'meal',
                     price: 8900
-                }]
+                }],
+                isHot:true
             }, {
                 name: {
                     KR: '햄야채 / 김치 볶음밥',
@@ -1046,7 +1049,6 @@ let data = [
                     name: 'meal',
                     price: 8900,
                 }],
-                isHot:true
             }, {
                 name: {
                     KR: '고암길떡볶이',
