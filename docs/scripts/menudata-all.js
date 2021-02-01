@@ -1039,8 +1039,8 @@ let data = [
                 }]
             }, {
                 name: {
-                    KR: '새우 / 햄야채 / 김치 볶음밥',
-                    EN: 'Shrimp / Ham Vegetables / Kimchi Fried Rice'
+                    KR: '햄야채 / 김치 볶음밥',
+                    EN: 'Ham Vegetables / Kimchi Fried Rice'
                 },
                 prices: [{
                     name: 'meal',
@@ -1068,44 +1068,45 @@ let data = [
             //     }],
             // }
         ]
-        }, {
-        name: 'brunchset',
-        template: {
-            KR: '<div style="width: 450px; color: #ff8080">Brunch Set<span style="font-size: 14px"> (브런치+아메)</span></div>',
-            EN: '<div style="width: 450px; color: #ff8080">Brunch Set<span style="font-size: 14px"> (brunch+Ame)</span></div>'
-        },
-        options: {
-            menuItem: {
-                isHotText: {
-                    KR: '인기',
-                    En: 'POP'
-                },
-                isPreparedText: {
-                    KR: 'Sold-out',
-                    EN: 'Sold-out'
-                }
-            }
-        },
-        items: [{
-            name: {
-                KR: '샌드위치세트',
-                EN: 'SandwichSet'
-            },
-            prices: [{ name: 'set', price: 4900, eventPrice: 4900}],
-            // isPrepared: true
-            isEvent: true
-        }, {
-            name: {
-                KR: '<span style="font-size: 18px">새우 / 햄야채 / 김치 볶음밥 세트</span>',
-                EN: '<span style="font-size: 18px">Shrimp / Ham Vegetables / Kimchi Fried Rice Set</span>'
-            },
-            prices: [{
-                name: 'set',
-                price: 10900,
-                eventPrice: 10900
-            }],
-            isEvent: true
         }, 
+        // {
+        // name: 'brunchset',
+        // template: {
+        //     KR: '<div style="width: 450px; color: #ff8080">Brunch Set<span style="font-size: 14px"> (브런치+아메)</span></div>',
+        //     EN: '<div style="width: 450px; color: #ff8080">Brunch Set<span style="font-size: 14px"> (brunch+Ame)</span></div>'
+        // },
+        // options: {
+        //     menuItem: {
+        //         isHotText: {
+        //             KR: '인기',
+        //             En: 'POP'
+        //         },
+        //         isPreparedText: {
+        //             KR: 'Sold-out',
+        //             EN: 'Sold-out'
+        //         }
+        //     }
+        // },
+        // items: [{
+        //     name: {
+        //         KR: '샌드위치세트',
+        //         EN: 'SandwichSet'
+        //     },
+        //     prices: [{ name: 'set', price: 4900, eventPrice: 4900}],
+        //     // isPrepared: true
+        //     isEvent: true
+        // }, {
+        //     name: {
+        //         KR: '<span style="font-size: 18px">새우 / 햄야채 / 김치 볶음밥 세트</span>',
+        //         EN: '<span style="font-size: 18px">Shrimp / Ham Vegetables / Kimchi Fried Rice Set</span>'
+        //     },
+        //     prices: [{
+        //         name: 'set',
+        //         price: 10900,
+        //         eventPrice: 10900
+        //     }],
+        //     isEvent: true
+        // }, 
         // {
         //     name: {
         //         KR: '<span style="font-size: 18px">낙지 / 치킨데리야끼 볶음밥 세트</span>',
@@ -1118,24 +1119,24 @@ let data = [
         //     }],
         //     isEvent: true
         // },
-        {
-            name: {
-                KR: '커피업그레이드',
-                EN: 'CoffeeUpgrade'
-            },
-            prices: {
-                set: 1000,
-            }
-        }, {
-            name: {
-                KR: '에이드로 변경',
-                EN: 'Change to Ade'
-            },
-            prices: {
-                set: 2000
-            }
-        }]
-    }
+    //     {
+    //         name: {
+    //             KR: '커피업그레이드',
+    //             EN: 'CoffeeUpgrade'
+    //         },
+    //         prices: {
+    //             set: 1000,
+    //         }
+    //     }, {
+    //         name: {
+    //             KR: '에이드로 변경',
+    //             EN: 'Change to Ade'
+    //         },
+    //         prices: {
+    //             set: 2000
+    //         }
+    //     }]
+    // }
         // }, {
             //     name: 'extra',
             //     template: {
