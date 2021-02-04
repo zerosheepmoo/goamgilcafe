@@ -740,6 +740,14 @@ let data = [
                 }
             }, {
                 name: {
+                    KR: '딸기 치즈케익 프라페',
+                    EN: 'Strawberry Cheesecake Frappe'
+                },
+                prices: {
+                    ice: 5900
+                }
+            }, {
+                name: {
                 KR: '군고구마 스무디',
                 EN: 'Roasted Sweet Potato Smoothie'
                 },
