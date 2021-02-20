@@ -861,7 +861,8 @@ let data = [
                         items: [
                             {망고: true},
                             {파인애플: true},
-                            {복숭아: true}
+                            {복숭아: true},
+                            {오렌지: true}
                         ],
                         slicer: ' / ',
                     },
@@ -869,7 +870,8 @@ let data = [
                         items: [
                             {mango: true},
                             {pineapple: true},
-                            {peach: true}
+                            {peach: true},
+                            {orange: true}
                         ],
                         slicer: ' / ',
                     }
