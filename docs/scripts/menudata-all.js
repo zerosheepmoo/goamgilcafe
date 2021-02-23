@@ -147,7 +147,7 @@ let data = [
                     EN: 'Einspänner'
                 },
                 prices: [
-                    { name: 'hot', price: 0 },
+                    { name: 'hot', price: 4400 },
                     { name: 'ice', price: 4400 }
                 ]
             }, {
