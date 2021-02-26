@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메뉴 데이터 생성기</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="./icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./icons/apple-icon-152x152.png">
+    <link rel="apple-touㅋ ch-icon" sizes="180x180" href="./icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png">
+    <link rel="manifest" href="./icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="./styles/mb-style.css"/>
+</head>
+<body>
+    <!-- menu app -->
+    <script src="./scripts/app-data-builder.js"></script>
+    <h1>메뉴데이터 생성기</h1>
+
+    <button id='load-view'></button>
+    <button id='remove-view'></button>
+    <div id='view-container'></div>
+    <script>
+        let b = new DataBuilder();
+        
+        b.addCategories(['coffee']);
+        b.addItems('coffee', ['espresso', 'americano'])
+        b.load();
+
+        let loadViewButton = document.getElementById('load-view');
+        loadViewButton.innerText = '뷰어보기'
+        loadViewButton.addEventListener('click', function() {
+            b.loadViewer('view-container');
+        });
+        let removeViewButton = document.getElementById('remove-view');
+        removeViewButton.innerText = '뷰어닫기'
+        removeViewButton.addEventListener('click', function() {
+            b.removeViewer();
+        });
+
+        //test용
+        setTimeout(function() {
+            loadViewButton.click();
+        },120)
+        window.b = b;
+    </script>
+    <p>
+        <a style="margin-top: 2em;"href="./menu.html"">메뉴 화면으로</button>
+    </p>
+</body>
+</html>

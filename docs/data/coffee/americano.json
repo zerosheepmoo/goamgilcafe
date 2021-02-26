@@ -1,0 +1,56 @@
+{
+    "log": {
+        "timeStamps": [
+            {
+                "date":"2021-01-23",
+                "content": "처음작성"
+            }
+        ]
+    },
+    "name": {
+        "KR": "아메리카노",
+        "EN": "Americano"
+    },
+    "price": {
+        "hot": 2900,
+        "ice": 3400
+    },
+    "menuOptions": {
+        "extra": [
+            {
+                "KR": "에스프레소 샷 추가",
+                "EN": "Add Espresso Shot",
+                "price": 500
+            },
+            {
+                "KR": "바닐라 샷 추가",
+                "EN": "Add Vanilla Shot",
+                "price": 500
+            },
+            {
+                "KR": "헤이즐넛 샷 추가",
+                "EN": "Add Hazelnut Shot",
+                "price": 500
+            }
+        ],
+        "cup": [
+            {
+                "KR": "유리컵",
+                "EN": "Glass"
+            },
+            {
+                "KR": "일회용컵",
+                "EN": "Disposable Cup"
+            }
+        ],
+        "sizeUp": 1000
+    },
+    "picture": {
+        "hot": true,
+        "ice": true
+    },
+    "details": "",
+    "status": {
+
+    }
+}

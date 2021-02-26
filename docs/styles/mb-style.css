@@ -1,0 +1,156 @@
+/* 외부버튼 */
+
+#load-view {
+    display: inline;
+    font-size: large;
+}
+#remove-view {
+    display: inline;
+    font-size: large;
+}
+
+/* 패스 아이템 */
+
+#view-container {
+
+}
+
+.d-root {
+    background-color: beige;
+    width: 300px;
+    padding-right: 20px;
+}
+
+.d-cate-path {
+    padding-left: 20px;
+}
+
+.d-item-path {
+    padding-left: 20px;
+}
+.d-item-path:hover {
+    background-color: rgba(33,33,33, 70%);
+    cursor: pointer;
+}
+
+.d-page-tool-con {
+    background-color: grey;
+    padding: 0.5em;
+    font-family: 'Courier New', Courier, monospace;
+    width: 300px;
+    padding-left: 12px;
+}
+
+/* 툴 */
+
+#d-tool {
+    position: absolute;
+    left: 25%;
+    top: 10%;
+    background-color: rgba(33,33,33);
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+    color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+#d-tool:hover {
+    background-color: rgba(0, 0, 0, 50%);
+}
+
+#d-tool-edit {
+    color: whitesmoke;
+    padding: 1em;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#d-tool-edit:hover {
+    background-color: rgba(33,33,33,70%);
+    cursor: pointer;
+}
+
+#d-tool-close {
+    color: whitesmoke;
+    padding: 1em;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#d-tool-close:hover {
+    background-color: rgba(33,33,33,70%);
+    cursor: pointer;
+}
+
+#d-tool-save {
+    color: whitesmoke;
+    padding: 1em;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#d-tool-save:hover {
+    background-color: rgba(33,33,33,70%);
+    cursor: pointer;
+}
+
+#d-send {
+    color: whitesmoke;
+    padding: 1em;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#d-send:hover {
+    background-color: rgba(33,33,33,70%);
+    cursor: pointer;
+}
+
+/* 편집 */
+
+#di-container {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: min-content;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: antiquewhite;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#di-item-block-con {
+    width: max-content;
+}
+
+.d-item-block {
+    display: inline-block;
+    background-color: antiquewhite;
+    padding: 0.5em;
+    font-size: medium;
+    z-index: 4;
+}
+
+.d-item-block:hover {
+    background-color: rgb(114, 114, 114);
+    cursor: pointer;
+}
+
+#di-display {
+    background-color: azure;
+    overflow: auto;
+    height: 200px;
+}
+
+#di-close {
+    color: red;
+}
+
+#di-all-data {
+    color: blue;
+}
+
+#di-edit-con {
+    height: 50px;
+    background-color: rgb(167, 167, 167);
+}

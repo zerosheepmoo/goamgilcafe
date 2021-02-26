@@ -1,0 +1,43 @@
+{
+    "log": {
+        "timeStamps": [
+            {
+                "date":"2021-01-23",
+                "content": "처음작성"
+            }
+        ]
+    },
+    "name": {
+        "KR": "에스프레소",
+        "EN": "Espresso"
+    },
+    "price": {
+        "hot": 2500
+    },
+    "menuOptions": {
+        "extra": [
+            {
+                "KR": "에스프레소 샷 추가",
+                "EN": "Add Espresso Shot",
+                "price": 500
+            }
+        ],
+        "cup": [
+            {
+                "KR": "에스프레소 잔",
+                "EN": "Espresso Cup"
+            },
+            {
+                "KR": "일회용 용가",
+                "EN": "Disposable Cup"
+            }
+        ]
+    },
+    "picture": {
+        "hot": true
+    },
+    "detials": "고암길 카페만의 독자적인 블랜딩 원두를 고압으로 추출한 에스프레소로, 마실 때 향을 먼저 맡고 크레마를 맛본후 드세요. 설탕을 넣고 젓지 말고 드시면, 진한 쓴맛 후 점차 달달한 맛을 느낄 수 있습니다.",
+    "status": {
+        
+    }
+}

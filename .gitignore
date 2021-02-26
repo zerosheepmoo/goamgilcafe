@@ -4,3 +4,6 @@ dist
 tests
 .DS_Store
 tsconfig.json
+databuild.config.js
+settings.json
+src2

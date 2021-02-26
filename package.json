@@ -16,7 +16,8 @@
   },
   "scripts": {
     "tsc": "tsc --init",
-    "wat": "webpack -w"
+    "wat": "webpack -w",
+    "dbuild": "webpack --config databuild.config.js -w"
   },
   "repository": {
     "type": "git",
