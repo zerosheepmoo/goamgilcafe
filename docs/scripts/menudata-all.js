@@ -156,8 +156,8 @@ let data = [
                     EN: 'Grapefruit vianko'
                 },
                 prices: [
-                    { name: 'hot', price: 4500 },
-                    { name: 'ice', price: 5000 }
+                    { name: 'hot', price: 4500, eventPrice: 4500 },
+                    { name: 'ice', price: 5000, eventPrice: 5000 }
                 ],
                 isEvent: true
             }, {
@@ -404,8 +404,8 @@ let data = [
                     EN: 'Special Peach Latte'
                 },
                 prices: [
-                    { name: 'hot', price: 0},
-                    { name: 'ice', price: 5000}
+                    { name: 'hot', price: 0, eventPrice: 0},
+                    { name: 'ice', price: 5000, eventPrice: 5000}
                 ],
                 isEvent: true
             }, {
