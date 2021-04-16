@@ -152,6 +152,16 @@ let data = [
                 ]
             }, {
                 name: {
+                    KR: '자몽 비앙코',
+                    EN: 'Grapefruit vianko'
+                },
+                prices: [
+                    { name: 'hot', price: 4500 },
+                    { name: 'ice', price: 5000 }
+                ],
+                isEvent: true
+            }, {
+                name: {
                     KR: '아포가토',
                     EN: 'Affogato'
                 },
@@ -388,6 +398,16 @@ let data = [
                     hot: 4400,
                     ice: 4900
                 }
+            }, {
+                name: {
+                    KR: '스페셜 복숭아 라떼',
+                    EN: 'Special Peach Latte'
+                },
+                prices: [
+                    { name: 'hot', price: 0},
+                    { name: 'ice', price: 5000}
+                ],
+                isEvent: true
             }, {
                 name: {
                     KR: '돼지바 라떼',
@@ -740,6 +760,22 @@ let data = [
                 }
             }, {
                 name: {
+                    KR: '초코/민트초코 프라페',
+                    EN: 'Choco/Mint-Choco Frappe'
+                },
+                prices: {
+                    ice: 5800
+                }
+            }, {
+                name: {
+                    KR: '흑임자 프라페',
+                    EN: 'Black Sesame Frappe'
+                },
+                prices: {
+                    ice: 5800
+                }
+            }, {
+                name: {
                     KR: '딸기 치즈케익 프라페',
                     EN: 'Strawberry Cheesecake Frappe'
                 },
@@ -862,7 +898,9 @@ let data = [
                             {망고: true},
                             {파인애플: true},
                             {복숭아: true},
-                            {오렌지: true}
+                            {오렌지: true},
+                            {자몽: true},
+                            {홍시: true}
                         ],
                         slicer: ' / ',
                     },
@@ -871,7 +909,9 @@ let data = [
                             {mango: true},
                             {pineapple: true},
                             {peach: true},
-                            {orange: true}
+                            {orange: true},
+                            {grapefruit: true},
+                            {hongsi: true}
                         ],
                         slicer: ' / ',
                     }
