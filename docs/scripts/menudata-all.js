@@ -607,7 +607,8 @@ let data = [
                             {키위: true},
                             {패션푸룻: true},
                             {라즈베리: true},
-                            {라임: true}
+                            {라임: true},
+                            {망고: true}
                         ],
                         slicer: ' / ',
                     },
@@ -624,7 +625,8 @@ let data = [
                             {Kiwi: true},
                             {'Passion Fruit': true},
                             {Raspberry: true},
-                            {Lime: true}
+                            {Lime: true},
+                            {Mango: true}
                         ],
                         slicer: ' / ',
                         style: 'style="font-size: 18px;"'
