@@ -892,7 +892,7 @@ let data = [
                     EN: 'Fruit Juice'
                 },
                 prices: {
-                    ice: 5000
+                    ice: 5500
                 },
                 subText: {
                     KR: {
