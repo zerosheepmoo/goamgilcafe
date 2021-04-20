@@ -221,7 +221,8 @@ let data = [
                     prices: [
                         { name: 'hot', price: 4300},
                         { name: 'ice', price: 4800}
-                    ] 
+                    ],
+                    isHot: true
                 }, {
                     name: {
                         KR: '견과율무차',
@@ -286,7 +287,8 @@ let data = [
                 prices: [
                     { name: 'hot', price: 0},
                     { name: 'ice', price: 4500}
-                ]
+                ],
+                isHot: true
             }, {
                 name: {
                     KR: '초코 / 민트초코 라떼',
@@ -370,7 +372,6 @@ let data = [
                     hot: 3900,
                     ice: 4400
                 },
-                isHot: true
             }, {
                 name: {
                     KR: '바밤바 라떼',
@@ -415,7 +416,8 @@ let data = [
                 },
                 prices: {
                     ice: 5500
-                }
+                },
+                isHot: true
             }, {
                 name: {
                     KR: '밀크티',
@@ -557,7 +559,8 @@ let data = [
                 },
                 prices: {
                     ice: 5300
-                }
+                },
+                isHot: true
             }]
         }
     ], [
@@ -631,7 +634,8 @@ let data = [
                         slicer: ' / ',
                         style: 'style="font-size: 18px;"'
                     }
-                }
+                },
+                isHot: true
             }, {
                 name: {
                     KR: '제주한라봉에이드',
@@ -832,7 +836,8 @@ let data = [
                         slicer: ' / ',
                         style: 'style="font-size: 20px;"'
                     }
-                }
+                },
+                isHot: true
             }]
         // }, {
         //     name: 'shavedIce',
@@ -898,26 +903,29 @@ let data = [
                     KR: {
                         items: [
                             {망고: true},
-                            {파인애플: true},
-                            {복숭아: true},
                             {오렌지: true},
                             {자몽: true},
-                            {홍시: true}
+                            {복숭아: true},
+                            {홍시: true},
+                            {파인애플: true},
+                            {키위: true}
                         ],
                         slicer: ' / ',
                     },
                     EN: {
                         items: [
                             {mango: true},
-                            {pineapple: true},
-                            {peach: true},
                             {orange: true},
                             {grapefruit: true},
-                            {hongsi: true}
+                            {peach: true},
+                            {hongsi: true},
+                            {pineapple: true},
+                            {kiwi: true}
                         ],
                         slicer: ' / ',
                     }
-                }
+                },
+                isHot: true
             }, {
                 name: {
                     KR: '리얼베리쥬스',
@@ -1053,6 +1061,7 @@ let data = [
                 name: 'meal',
                 price: 4800
             }],
+            isHot: true
         }, 
         // {
         //     name: {
