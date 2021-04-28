@@ -291,6 +291,15 @@ let data = [
                 isHot: true
             }, {
                 name: {
+                    KR: '블루베리 라떼',
+                    EN: 'Blueberrie Latte'
+                },
+                prices: [
+                    { name: 'hot', price: 0},
+                    { name: 'ice', price: 4500}
+                ]
+            }, {
+                name: {
                     KR: '초코 / 민트초코 라떼',
                     EN: 'Choco / Mint-Choco Latte'
                 },
@@ -609,6 +618,7 @@ let data = [
                             {파인애플: true},
                             {키위: true},
                             {패션푸룻: true},
+                            {블루베리: true},
                             {라즈베리: true},
                             {라임: true},
                             {망고: true}
@@ -627,6 +637,7 @@ let data = [
                             {'Pineapple': true},
                             {Kiwi: true},
                             {'Passion Fruit': true},
+                            {Blueberries: true},
                             {Raspberry: true},
                             {Lime: true},
                             {Mango: true}
