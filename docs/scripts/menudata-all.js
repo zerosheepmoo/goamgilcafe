@@ -688,13 +688,6 @@ let data = [
                 prices: {
                     ice: 7000
                 }
-            }, {
-                name: {
-                    KR: '코코젤리사이다',
-                    EN: 'COCO-Jelly Soda'
-                },
-                prices: [{name: 'ice', price: 3000, eventPrice: 3000}],
-                isEvent: true
             }]
         }, {
             name: 'shakeAndSmoo',
