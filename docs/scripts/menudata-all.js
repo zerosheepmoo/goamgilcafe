@@ -156,8 +156,18 @@ let data = [
                     EN: 'Grapefruit vianko'
                 },
                 prices: [
-                    { name: 'hot', price: 4500, eventPrice: 4500 },
-                    { name: 'ice', price: 5000, eventPrice: 5000 }
+                    { name: 'hot', price: 5000, eventPrice: 5000 },
+                    { name: 'ice', price: 5500, eventPrice: 5500 }
+                ],
+                isEvent: true
+            }, {
+                name: {
+                    KR: '오렌지 비앙코',
+                    EN: 'Orange Vianko'
+                },
+                prices: [
+                    { name: 'hot', price: 5000, eventPrice: 5000},
+                    { name: 'ice', price: 5500, eventPrice: 5500}
                 ],
                 isEvent: true
             }, {
@@ -293,6 +303,15 @@ let data = [
                 name: {
                     KR: '블루베리 라떼',
                     EN: 'Blueberrie Latte'
+                },
+                prices: [
+                    { name: 'hot', price: 0},
+                    { name: 'ice', price: 4500}
+                ]
+            }, {
+                name: {
+                    KR: '리얼 바나나 라떼',
+                    EN: 'Real Banana Latte'
                 },
                 prices: [
                     { name: 'hot', price: 0},
