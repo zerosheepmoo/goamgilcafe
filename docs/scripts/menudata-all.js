@@ -916,12 +916,13 @@ let data = [
             },
             items: [{
                 name: {
-                    KR: '수박쥬스',
+                    KR: '수박쥬스(시즌메뉴)',
                     EN: 'Watermelon Juice'
                 },
                 prices: {
                     ice: 5000
-                }
+                },
+                isHot: true
             }, {
                 name: {
                     KR: '과일쥬스',
@@ -955,8 +956,7 @@ let data = [
                         ],
                         slicer: ' / ',
                     }
-                },
-                isHot: true
+                }
             }, {
                 name: {
                     KR: '리얼베리쥬스',
