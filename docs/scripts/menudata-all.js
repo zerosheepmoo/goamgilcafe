@@ -916,6 +916,14 @@ let data = [
             },
             items: [{
                 name: {
+                    KR: '수박쥬스',
+                    EN: 'Watermelon Juice'
+                },
+                prices: {
+                    ice: 5000
+                }
+            }, {
+                name: {
                     KR: '과일쥬스',
                     EN: 'Fruit Juice'
                 },
