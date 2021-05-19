@@ -540,7 +540,7 @@ let data = [
                             {'레몬': true},
                             {'블루베리': true},
                             {'복숭아': true},
-                            {'트로피칼': true},
+                            {'트로피칼': false},
                         ],
                         slicer: ' / ',
                         style: 'style="width: 400px;"'
@@ -636,7 +636,7 @@ let data = [
                             {복숭아: true},
                             {파인애플: true},
                             {키위: true},
-                            {패션푸룻: true},
+                            {패션푸룻: false},
                             {블루베리: true},
                             {라즈베리: true},
                             {라임: true},
