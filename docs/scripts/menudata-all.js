@@ -964,7 +964,7 @@ let data = [
                 }, {
             name: 'shavedIce',
             template: {
-                KR: '빙수',
+                KR: '눈꽃빙수',
                 EN: 'ShavedIce'
             },
             options: {
