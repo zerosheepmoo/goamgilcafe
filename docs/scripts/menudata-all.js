@@ -862,37 +862,6 @@ let data = [
                 },
                 isHot: true
             }]
-        // }, {
-        //     name: 'shavedIce',
-        //     template: {
-        //         KR: '빙수',
-        //         EN: 'ShavedIce'
-        //     },
-        //     options: {
-        //         menuItem: {
-        //             isHotText: {
-        //                 KR: '인기',
-        //                 EN: 'POP'
-        //             }
-        //         }
-        //     },
-        //     items: [{
-        //         name: {
-        //             KR: '찹쌀떡 / 인절미 / 치즈 빙수',
-        //             EN: '<div style="width: 370px; font-size: 17px;">Glutnious Rice Cake / Injeolmi / Cheese</div>'
-        //         },
-        //         prices: {
-        //             ice: 8900
-        //         }
-        //     }, {
-        //         name: {
-        //             KR: '망고치즈큐브 빙수',
-        //             EN: 'Mango Cheese-cube'
-        //         },
-        //         prices: {
-        //             ice: 10900
-        //         }
-        //     }],
         },
     ], [
         {
@@ -992,6 +961,37 @@ let data = [
                     ice: 5500
                 }
             }]
+                }, {
+            name: 'shavedIce',
+            template: {
+                KR: '빙수',
+                EN: 'ShavedIce'
+            },
+            options: {
+                menuItem: {
+                    isHotText: {
+                        KR: '인기',
+                        EN: 'POP'
+                    }
+                }
+            },
+            items: [{
+                name: {
+                    KR: '찹쌀떡 / 인절미 / 치즈 빙수',
+                    EN: '<div style="width: 370px; font-size: 17px;">Glutnious Rice Cake / Injeolmi / Cheese</div>'
+                },
+                prices: {
+                    ice: 8900
+                }
+            }, {
+                name: {
+                    KR: '망고치즈큐브 빙수',
+                    EN: 'Mango Cheese-cube'
+                },
+                prices: {
+                    ice: 10900
+                }
+            }],
         }, {
         //     name: 'virginCocktail',
         //     template: {
