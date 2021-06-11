@@ -225,6 +225,15 @@ let data = [
                     ]
                 }, {
                     name: {
+                        KR: '석류차',
+                        EN: 'Pomegranate Tea'
+                    },
+                    prices: [
+                        {name: 'hot', price: 4300},
+                        {name: 'ice', price: 4800}
+                    ]
+                }, {
+                    name: {
                         KR: '제주한라봉차',
                         EN: 'Jeju Hallabong Tea'
                     },
@@ -541,9 +550,10 @@ let data = [
                             {'블루베리': true},
                             {'복숭아': true},
                             {'트로피칼': true},
+                            {'석류': true},
                         ],
                         slicer: ' / ',
-                        style: 'style="width: 400px;"'
+                        style: 'style="width: 330px;"'
                     },
                     EN: {
                         items: [
@@ -551,9 +561,10 @@ let data = [
                             {'Blueberry': true},
                             {'Peach': true},
                             {'Tropical': true},
+                            {'Pomegranate': true},
                         ],
                         slicer: ' / ',
-                        style: 'style="width: 400px;"'
+                        style: 'style="width: 330px;"'
                     }
                 }
             }]
@@ -640,7 +651,8 @@ let data = [
                             {블루베리: true},
                             {라즈베리: true},
                             {라임: true},
-                            {망고: true}
+                            {망고: true},
+                            {석류: true}
                         ],
                         slicer: ' / ',
                     },
@@ -659,7 +671,8 @@ let data = [
                             {Blueberries: true},
                             {Raspberry: true},
                             {Lime: true},
-                            {Mango: true}
+                            {Mango: true},
+                            {Pomegranate: true}
                         ],
                         slicer: ' / ',
                         style: 'style="font-size: 18px;"'
@@ -810,6 +823,14 @@ let data = [
                 },
                 prices: {
                     ice: 5900
+                }
+            }, {
+                name: {
+                    KR: '석류 스무디',
+                    EN: 'Pomegranate Smoothie'
+                },
+                prices: {
+                    ice: 5000
                 }
             }, {
                 name: {
