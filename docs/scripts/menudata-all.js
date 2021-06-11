@@ -328,8 +328,8 @@ let data = [
                 ]
             }, {
                 name: {
-                    KR: '초코 / 민트초코 라떼',
-                    EN: 'Choco / Mint-Choco Latte'
+                    KR: '초코 / 화이트 초코 / 민트초코 라떼',
+                    EN: 'Choco / white chocolate / Mint-Choco Latte'
                 },
                 prices: [
                     { name: 'hot', price: 3900},
