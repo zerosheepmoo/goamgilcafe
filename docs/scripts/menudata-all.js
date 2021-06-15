@@ -328,6 +328,15 @@ let data = [
                 ]
             }, {
                 name: {
+                    KR: '리얼망고 라떼',
+                    EN: 'Real Mango Latte'
+                },
+                prices: [
+                    {name: 'hot', price: 0},
+                    {name: 'ice', price: 4500}
+                ]
+            }, {
+                name: {
                     KR: '초코 / 화이트 초코 / 민트초코 라떼',
                     EN: 'Choco / white chocolate / Mint-Choco Latte'
                 },
