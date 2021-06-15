@@ -1164,6 +1164,15 @@ let data = [
                 isHot:true
             }, {
                 name: {
+                    KR: '불고기 덮밥(호주 척롤)',
+                    EN: 'Bulgogi Rice Bowl'
+                },
+                prices: [{
+                    name: 'meal',
+                    price: 7900,
+                }],
+            },{
+                name: {
                     KR: '햄야채 / 김치 볶음밥',
                     EN: 'Ham Vegetables / Kimchi Fried Rice'
                 },
