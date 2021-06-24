@@ -1083,6 +1083,34 @@ let data = [
             // }, 
             {
                 name: {
+                    KR: '그릭요거트',
+                    EN: 'Greek Yogurt'
+                },
+                prices: [{
+                    name: 'meal',
+                    price: 5000
+                }],
+                subText: {
+                    KR: {
+                        items: [
+                            {블루베리견과: true},
+                            {바나나견과: true},
+                            {망고견과: true}
+                        ], 
+                        slicer: ' / ',
+                        style: 'style="font-size: 23px;"'
+                    },
+                    EN: {
+                        items: [
+                            {'Blueberry Nuts': true},
+                            {'Banana Nuts': true},
+                            {'Mango Nuts': true}
+                        ],
+                        slicer: ' / ',
+                    }
+                }
+            },{
+                name: {
                     KR: '샌드위치',
                     EN: 'Sandwich'
                 },
