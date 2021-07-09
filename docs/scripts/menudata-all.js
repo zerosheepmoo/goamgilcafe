@@ -70,6 +70,15 @@ let data = [
                 }
             }, {
                 name: {
+                    KR: '콜드블루 아메리카노',
+                    EN: 'cold blue americano'
+                },
+                prices: [
+                    { name: 'hot', price: 0},
+                    { name: 'ice', price: 3900}
+                ]
+            }, {
+                name: {
                     KR: '카페라떼',
                     EN: 'Cafe Latte'
                 },
@@ -803,24 +812,8 @@ let data = [
                 isHot: true
             }, {
                 name: {
-                    KR: '인절미 쉐이크',
-                    EN: 'Injeolmi Shake'
-                },
-                prices: {
-                    ice: 5800
-                }
-            }, {
-                name: {
                     KR: '초코/민트초코 프라페',
                     EN: 'Choco/Mint-Choco Frappe'
-                },
-                prices: {
-                    ice: 5800
-                }
-            }, {
-                name: {
-                    KR: '흑임자 프라페',
-                    EN: 'Black Sesame Frappe'
                 },
                 prices: {
                     ice: 5800
@@ -891,6 +884,31 @@ let data = [
                     }
                 },
                 isHot: true
+            }, {
+                name: {
+                    KR: '팥빙수 쉐이크',
+                    EN: 'red bean shaved ice shake'
+                },
+                prices: {
+                    ice: 5800
+                }
+            }, {
+                name: {
+                    KR: '스페셜 쉐이크',
+                    EN: 'special shake'
+                },
+                prices: {
+                    ice: 6000
+                },
+            subText: {
+                KR: {
+                    items: [
+                        {'녹차 빙수': true},
+                        {'인절미 빙수': true}
+                    ],
+                    slicer:' / '
+                }
+            }
             }]
         },
     ], [
@@ -922,6 +940,13 @@ let data = [
                     ice: 5000
                 },
                 isHot: true
+            }, {
+                name: {
+                    KR: '땡모반{시즌메뉴)',
+                },
+                prices: {
+                    ice: 6000
+                }
             }, {
                 name: {
                     KR: '과일쥬스',
