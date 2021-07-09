@@ -70,8 +70,8 @@ let data = [
                 }
             }, {
                 name: {
-                    KR: '콜드블루 아메리카노',
-                    EN: 'cold blue americano'
+                    KR: '콜드브루 아메리카노',
+                    EN: 'cold brew americano'
                 },
                 prices: [
                     { name: 'hot', price: 0},
